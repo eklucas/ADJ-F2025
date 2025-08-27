@@ -6,7 +6,7 @@ Welcome to Advanced Data Journalism for Fall 2025. This repository will eventual
 
 Each class period I will commit the code that we work through.
 
--    Jan 29: [Introduction to sorting, filtering, and summarizing](https://eklucas.github.io/ADJ-S2025/scripts/intro-to-tidyverse.html)
+-    Jan 29: [Introduction to sorting, filtering, and summarizing](https://eklucas.github.io/ADJ-F2025/scripts/day-one-r-notebook.html)
 
 
 Because GitHub is not meant to hold large data files, you will find most of the data files we use in class on Canvas. 
