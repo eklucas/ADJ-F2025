@@ -1,0 +1,110 @@
+---
+title: "Day 1 R Notebook"
+output: 
+---
+
+To start: we'll create some `variables`, which are like containers in R that hold values, vectors, lists, datasets, and more. 
+
+```{r}
+# creates a variable called "a" that holds a value of 6:
+a <- 6
+
+# prints the value of "a" below the console:
+a
+
+# creates a variable called "b" that holds a value of "apples":
+b <- "apples"
+
+# creates a variable called "c" that holds a value of 12:
+c <- 12
+
+# the function `sum` sums up the values of "a" and "c" (because they are numbers):
+sum(a,c)
+
+# creates a vector called "fruit" that holds three text values:
+fruit <- c("apples","bananas","mangoes")
+```
+
+Vectors are lists of items with the same data type. You can read more about them here: https://www.w3schools.com/r/r_vectors.asp
+
+To work with data (i.e. create a variable that holds an entire dataset), we need the `tidyverse` packages (more on those here: https://www.tidyverse.org/). They were built for data scientists, which have a lot of the same concerns as data journalists. 
+
+```{r}
+# loads the tidyverse packages to we can access their functions:
+library(tidyverse)
+```
+
+The data we'll work with is the `nps_annual.csv` file in the data/ folder. To read that file into R's environment, use the `read_csv()` function from `tidyverse`:
+```{r}
+# reads the data from nps_annual.csv and stores it in a variable called "nps_annual":
+nps_annual <- read_csv("data/nps_annual.csv")
+
+# note that because we're using an .RProj file (an R Project) we only need to tell it where nps_annual.csv is relative to the .RProj file. 
+
+nps_annual
+```
+
+### Primary functions for analysis: 
+
+Sorting
+
+```{r}
+# takes the data in nps_annual and pipes it into the arrange() function which sorts it by the column RecreationVisits: 
+nps_annual %>% arrange(RecreationVisits) 
+
+# reverse the sort order to descending: 
+nps_annual %>% arrange(desc(RecreationVisits))
+
+# using arrange() on a text column sorts it alphabetically
+nps_annual %>% arrange(State)
+```
+
+Filtering
+```{r}
+# filters the nps_annual dataset to see only rows where the `Year` is 2024 (a number):
+nps_annual %>% 
+  filter(Year == 2024)
+
+# applies the same filter and then sorts the resulting table by RecreationVisits, desc:
+nps_annual %>% 
+  filter(Year == 2024) %>% 
+  arrange(desc(RecreationVisits)) %>% 
+  filter(RecreationVisits > 1000000)
+
+# further filters the dataset to only include rows where RecreationVisits is greater than 1M:
+nps_annual %>% 
+  filter(Year == 2024) %>% 
+  arrange(desc(RecreationVisits)) %>% 
+  filter(RecreationVisits > 1000000)
+
+# takeaway: this process is very linear, and you can keep piping your results into new functions to do further transformations.
+```
+
+Grouping
+
+```{r}
+# note that applying the group_by() doesn't change the look at the table, just adds a sort of index (there are 46 groups, or 46 years in the data)
+nps_annual %>% 
+  group_by(Year)
+
+# group_by() is followed by summarise(), which acts on the groups. This is a good rule of thumb to remember: group_by is followed by summarise:
+nps_annual %>% 
+  group_by(Year) %>% 
+  summarise(total = sum(RecreationVisits)) %>% 
+  arrange(desc(total))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
