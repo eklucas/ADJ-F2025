@@ -9,7 +9,7 @@ To start: we'll create some `variables`, which are like containers in R that hol
 # creates a variable called "a" that holds a value of 6:
 a <- 6
 
-# prints the value of "a" below the console:
+# prints the value of "a" below the code chunk:
 a
 
 # creates a variable called "b" that holds a value of "apples":
