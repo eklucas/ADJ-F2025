@@ -1,0 +1,144 @@
+---
+title: "Review using National Parks data"
+output:
+  html_document:
+    df_print: paged
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+First code chunk is always loading necessary libraries
+
+```{r}
+library(tidyverse)
+```
+
+Then load your data
+
+```{r}
+nps <- read_csv("data/nps_annual.csv")
+```
+
+#### Questions I always ask of my data:
+
+1 - How many rows of data? (2,846 rows)
+
+2 - What is one row? (One NP in one year)
+
+3 - What's in every column? Read the data dictionary if there is one,
+and go through each column to better understand it:
+
+```{r}
+# the summary function gives you an overview of each column (mostly helpful for numbers columns)
+summary(nps)
+
+# use the count() function to see unique values in a particular column, and how many times they appear. 
+nps %>% count(ParkName)
+
+# another way of telling the count function where to find ParkName.
+# The pipe ( %>% ) takes whatever comes previously and puts it into the first argument of the next function.
+count(nps, ParkName)
+```
+
+Use the count() function to assess values in all your character columns,
+especially any categorical variables (such as Region, State, Year):
+
+```{r}
+nps %>% count(Region)
+# There are six regions in the data
+
+nps %>% count(State)
+# not every state has a NP; only 30 
+
+nps %>% count(Year)
+# the dataset goes from 1979 to 2024
+```
+
+#### Review of primary functions
+
+**sorting**
+
+```{r}
+# ascending is the default
+nps %>% arrange(RecreationVisits)
+
+# descending
+nps %>% arrange(desc(RecreationVisits))
+```
+
+**filtering**
+
+```{r}
+# get all the rows for California: 
+nps %>% 
+  filter(State == "CA")
+
+# how many parks are in California? 
+nps %>% 
+  filter(State == "CA") %>% 
+  count(ParkName)
+
+# using group_by() and summarise(n()) is the same as using count(): 
+nps %>% 
+  filter(State == "CA") %>% 
+  group_by(ParkName) %>% 
+  summarise(n = n())
+```
+
+**More filtering** (multiple criteria, using and / or: )
+
+```{r}
+# using & (and)
+nps %>% filter(State == "CA" & RecreationVisits > 1000000)
+
+# using | (or)
+nps %>% filter(State == "CA" | State == "OR")
+```
+
+#### Now to some questions...
+
+What region had the most visitors last year?
+
+```{r}
+nps %>% 
+  group_by(Region, Year) %>% 
+  summarise(total = sum(RecreationVisits)) %>% 
+  arrange(desc(Year), desc(total))
+
+# or
+
+nps %>% 
+  filter(Year == 2024) %>% 
+  group_by(Region) %>% 
+  summarise(total = sum(RecreationVisits)) %>% 
+  arrange(desc(total))
+
+# there are often multiple ways to answer a question
+```
+
+What year had the most visits?
+
+```{r}
+nps %>% 
+  group_by(Year) %>%
+  summarise(total = sum(RecreationVisits)) %>% 
+  arrange(desc(total))
+```
+
+Which state has the most parks?
+
+```{r}
+# the n_distinct() function counts unique values in a column:
+nps %>% 
+  group_by(State) %>% 
+  summarise(parks = n_distinct(ParkName)) %>% 
+  arrange(desc(parks))
+
+# you can add multiple summary functions inside summarise(): 
+nps %>% 
+  group_by(State) %>% 
+  summarise(parks = n_distinct(ParkName),
+            visits = sum(RecreationVisits)) %>% 
+  arrange(desc(parks))
+```

@@ -1,0 +1,401 @@
+year,table,subcategory,species,january,february,march,april,may,june,july,august,september,october,november,december,ytd
+2019,Intake,Stray,Cats,41,33,43,71,136,175,108,127,103,105,85,52,1079
+2019,Intake,Stray,Dogs,59,47,55,60,61,43,51,51,29,54,57,52,619
+2019,Intake,Stray,Small Animals,2,2,3,3,1,1,1,1,1,3,1,0,19
+2019,Intake,Owner Surrender,Cats,56,26,39,84,41,63,33,25,15,25,10,20,437
+2019,Intake,Owner Surrender,Dogs,33,31,64,50,26,45,29,27,29,31,27,29,421
+2019,Intake,Owner Surrender,Small Animals,6,13,13,17,11,20,77,22,15,17,23,6,240
+2019,Intake,Adoption Returns,Cats,1,1,2,2,7,1,3,3,5,2,2,0,29
+2019,Intake,Adoption Returns,Dogs,5,5,9,11,10,0,4,5,7,2,7,10,75
+2019,Intake,Adoption Returns,Small Animals,0,0,0,0,0,2,0,0,0,1,1,0,4
+2019,Intake,Transfer In,Cats,2,4,2,3,8,5,17,10,65,17,5,4,142
+2019,Intake,Transfer In,Dogs,11,13,21,18,19,15,34,33,18,30,24,13,249
+2019,Intake,Transfer In,Small Animals,1,0,13,7,1,0,0,1,2,2,2,1,30
+2019,Intake,Total Intake,Cats,100,64,86,160,192,244,161,165,188,149,102,76,1687
+2019,Intake,Total Intake,Dogs,108,96,149,139,116,103,118,116,83,117,115,104,1364
+2019,Intake,Total Intake,Small Animals,9,15,29,27,13,23,78,24,18,23,27,7,293
+2019,Intake,Total Intake,Grand Totals,217,175,264,326,321,370,357,305,289,289,244,187,3344
+2019,Rescue,Second Chance,Cats,0,0,0,0,1,11,4,7,0,0,7,0,30
+2019,Rescue,Second Chance,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Rescue,Second Chance,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Rescue,Second Chance,Total,0,0,0,0,1,11,4,7,0,0,7,0,30
+2019,Rescue,Breed Specific,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Rescue,Breed Specific,Dogs,1,0,1,0,0,1,2,1,0,0,0,1,7
+2019,Rescue,Breed Specific,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Rescue,Breed Specific,Total,1,0,1,0,0,1,2,1,0,0,0,1,7
+2019,Rescue,Other Rescues,Cats,4,0,0,1,0,0,1,0,1,0,1,1,9
+2019,Rescue,Other Rescues,Dogs,3,2,6,4,1,1,2,2,2,9,0,0,32
+2019,Rescue,Other Rescues,Small Animals,0,0,0,0,0,0,10,0,0,1,0,0,11
+2019,Rescue,Other Rescues,Total,7,2,6,5,1,1,13,2,3,10,1,1,52
+2019,Rescue,Total Sent to Rescue,Cats,4,0,0,1,1,11,5,7,1,0,8,1,39
+2019,Rescue,Total Sent to Rescue,Dogs,4,2,7,4,1,2,4,3,2,9,0,1,39
+2019,Rescue,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,10,0,0,1,0,0,11
+2019,Rescue,Total Sent to Rescue,Grand Totals,8,2,7,5,2,13,19,10,3,10,8,2,89
+2019,Live Release,Adoption,Cats,110,98,73,67,77,137,111,182,109,147,130,187,1428
+2019,Live Release,Adoption,Dogs,76,77,92,106,95,61,87,90,87,67,79,101,1018
+2019,Live Release,Adoption,Small Animals,1,17,16,12,28,14,48,35,20,24,17,28,260
+2019,Live Release,Return to Owner,Cats,5,6,10,0,4,14,8,3,3,6,3,6,68
+2019,Live Release,Return to Owner,Dogs,39,20,34,32,29,26,23,18,12,28,16,18,295
+2019,Live Release,Return to Owner,Small Animals,0,0,0,2,1,0,0,0,0,0,0,0,3
+2019,Live Release,Total Sent to Rescue,Cats,4,0,0,1,1,11,5,7,1,0,8,1,39
+2019,Live Release,Total Sent to Rescue,Dogs,4,2,7,4,1,2,4,3,2,9,0,1,39
+2019,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,10,0,0,2,0,0,12
+2019,Live Release,Trap Neuter Release,Cats,0,3,0,2,1,5,1,4,1,9,6,3,35
+2019,Live Release,Live Release Totals,Cats,119,107,83,70,83,167,125,196,114,162,147,197,1570
+2019,Live Release,Live Release Totals,Dogs,119,99,133,142,125,89,114,111,101,104,95,120,1352
+2019,Live Release,Live Release Totals,Small Animals,1,17,16,14,29,14,58,35,20,26,17,28,275
+2019,Live Release,Live Release Totals,Grand Totals,239,223,232,226,237,270,297,342,235,292,259,345,3197
+2019,Euthanasia,Owner Request,Cats,1,3,0,3,5,0,0,0,1,0,0,0,13
+2019,Euthanasia,Owner Request,Dogs,0,2,0,3,1,1,1,0,1,2,0,1,12
+2019,Euthanasia,Owner Request,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Health,Cats,3,0,3,4,3,4,7,11,4,2,8,3,52
+2019,Euthanasia,Health,Dogs,1,2,0,0,0,1,0,1,0,0,1,0,6
+2019,Euthanasia,Health,Small Animals,0,0,0,0,0,0,0,0,2,0,1,0,3
+2019,Euthanasia,Died,Cats,1,1,2,6,15,8,2,6,9,9,2,0,61
+2019,Euthanasia,Died,Dogs,2,0,0,0,0,0,0,0,0,0,0,0,2
+2019,Euthanasia,Died,Small Animals,0,0,0,0,1,2,1,0,0,1,0,0,5
+2019,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Behavioral,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Aggression,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Aggression,Dogs,4,1,1,2,1,4,3,3,3,2,1,1,26
+2019,Euthanasia,Aggression,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Feral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Feral,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Feral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Age,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Age,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Age,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2019,Euthanasia,Euthanasia Totals,Cats,5,4,5,13,23,12,9,17,14,11,10,3,126
+2019,Euthanasia,Euthanasia Totals,Dogs,7,5,1,5,2,6,4,4,4,4,2,2,46
+2019,Euthanasia,Euthanasia Totals,Small Animals,0,0,0,0,1,2,1,0,2,1,1,0,8
+2019,NA,Euthanasia Totals,Grand Totals,12,9,6,18,26,20,14,21,20,16,13,5,180
+2020,Intake,Stray,Cats,36,38,11,26,85,74,105,67,102,83,37,35,699
+2020,Intake,Stray,Dogs,38,39,43,16,23,26,19,27,20,31,27,31,340
+2020,Intake,Stray,Small Animals,1,3,3,0,1,1,2,2,0,1,0,0,14
+2020,Intake,Owner Surrender,Cats,46,43,21,6,55,43,45,44,53,71,24,22,473
+2020,Intake,Owner Surrender,Dogs,34,44,22,9,40,31,23,48,29,33,16,18,347
+2020,Intake,Owner Surrender,Small Animals,16,17,10,2,5,19,10,9,17,21,13,7,146
+2020,Intake,Adoption Returns,Cats,4,1,0,0,1,3,0,3,3,1,4,1,21
+2020,Intake,Adoption Returns,Dogs,6,12,3,2,7,6,8,6,3,4,5,6,68
+2020,Intake,Adoption Returns,Small Animals,1,1,5,0,0,0,0,0,0,0,0,2,9
+2020,Intake,Transfer In,Cats,6,3,9,6,3,8,11,16,8,8,5,4,87
+2020,Intake,Transfer In,Dogs,31,22,48,22,15,27,25,33,24,37,21,19,324
+2020,Intake,Transfer In,Small Animals,1,55,6,0,0,1,8,2,6,0,0,0,79
+2020,Intake,Total Intake,Cats,92,85,41,38,144,128,161,130,166,163,70,62,1280
+2020,Intake,Total Intake,Dogs,109,117,116,49,85,90,75,114,76,105,69,74,1079
+2020,Intake,Total Intake,Small Animals,19,76,24,2,6,21,20,13,23,22,13,9,248
+2020,Intake,Total Intake,Grand Totals,220,278,181,89,235,239,256,257,265,290,152,145,2607
+2020,Rescue,Second Chance,Cats,0,0,1,1,0,0,0,0,0,0,0,0,2
+2020,Rescue,Second Chance,Dogs,0,0,0,0,0,0,0,0,0,2,0,0,2
+2020,Rescue,Second Chance,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Rescue,Second Chance,Total,0,0,1,1,0,0,0,0,0,2,0,0,4
+2020,Rescue,Breed Specific,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Rescue,Breed Specific,Dogs,3,2,0,0,0,0,0,0,1,0,1,0,7
+2020,Rescue,Breed Specific,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Rescue,Breed Specific,Total,3,2,0,0,0,0,0,0,1,0,1,0,7
+2020,Rescue,Other Rescues,Cats,0,0,2,0,0,0,0,0,0,0,0,0,2
+2020,Rescue,Other Rescues,Dogs,1,2,0,1,1,1,0,0,2,4,0,0,12
+2020,Rescue,Other Rescues,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Rescue,Other Rescues,Total,1,2,2,1,1,0,0,0,2,4,0,0,13
+2020,Rescue,Total Sent to Rescue,Cats,0,0,3,1,0,0,0,0,0,0,0,0,4
+2020,Rescue,Total Sent to Rescue,Dogs,4,4,0,1,1,1,0,0,3,6,1,0,21
+2020,Rescue,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Rescue,Total Sent to Rescue,Grand Totals,4,4,3,2,1,1,0,0,3,6,1,0,25
+2020,Live Release,Adoption,Cats,126,106,49,31,36,91,111,134,106,141,128,142,1201
+2020,Live Release,Adoption,Dogs,78,104,79,72,60,77,71,63,79,70,59,72,884
+2020,Live Release,Adoption,Small Animals,15,35,50,21,12,15,23,12,15,11,21,11,241
+2020,Live Release,Return to Owner,Cats,4,2,0,1,2,6,4,4,5,6,1,2,37
+2020,Live Release,Return to Owner,Dogs,23,17,22,5,12,16,15,6,14,22,14,16,182
+2020,Live Release,Return to Owner,Small Animals,0,0,0,0,0,0,2,0,0,0,0,0,2
+2020,Live Release,Total Sent to Rescue,Cats,0,0,3,1,0,0,0,0,0,0,0,0,4
+2020,Live Release,Total Sent to Rescue,Dogs,4,4,0,1,1,1,0,0,3,6,1,0,21
+2020,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Live Release,Trap Neuter Release,Cats,4,0,1,0,1,0,1,1,1,0,0,0,9
+2020,Live Release,Live Release Totals,Cats,134,108,53,33,39,97,116,139,112,147,129,144,1251
+2020,Live Release,Live Release Totals,Dogs,105,125,101,78,73,94,86,69,96,98,74,88,1087
+2020,Live Release,Live Release Totals,Small Animals,15,35,50,21,12,15,25,12,15,11,21,11,243
+2020,Euthanasia,Live Release Totals,Grand Totals,254,268,204,132,124,206,227,220,223,256,224,243,2581
+2020,Euthanasia,Owner Request,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Owner Request,Dogs,1,2,2,0,0,0,0,0,0,0,0,0,5
+2020,Euthanasia,Owner Request,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Health,Cats,0,1,3,0,2,2,2,3,2,3,5,2,25
+2020,Euthanasia,Health,Dogs,3,0,1,0,0,0,0,0,1,0,0,0,5
+2020,Euthanasia,Health,Small Animals,0,1,0,0,1,0,0,0,0,0,0,0,2
+2020,Euthanasia,Died,Cats,1,1,0,0,2,3,10,4,20,1,0,1,43
+2020,Euthanasia,Died,Dogs,0,0,0,1,1,0,0,0,0,1,0,0,3
+2020,Euthanasia,Died,Small Animals,0,0,0,0,0,0,0,4,1,1,2,1,9
+2020,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Behavioral,Dogs,0,0,0,0,0,0,0,0,0,0,1,0,1
+2020,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Aggression,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Aggression,Dogs,2,0,0,0,1,0,0,1,0,0,0,0,4
+2020,Euthanasia,Aggression,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Feral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Feral,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Feral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Age,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Age,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2020,Euthanasia,Age,Small Animals,0,0,0,0,0,NA,0,0,0,0,0,0,0
+2020,Euthanasia,Euthanasia Totals,Cats,1,2,3,0,4,5,12,7,22,4,5,3,68
+2020,Euthanasia,Euthanasia Totals,Dogs,6,2,3,1,2,0,0,1,1,1,1,0,18
+2020,Euthanasia,Euthanasia Totals,Small Animals,0,1,0,0,1,0,0,4,1,1,2,1,11
+2020,Euthanasia,Euthanasia Totals,Grand Totals,7,5,6,1,7,5,12,12,24,6,8,4,97
+2021,Intake,Stray,Cats,24,22,19,56,59,66,54,81,60,56,37,24,558
+2021,Intake,Stray,Dogs,23,20,44,27,32,30,63,30,29,43,28,35,404
+2021,Intake,Stray,Small Animals,1,0,1,1,1,1,1,1,0,0,2,0,9
+2021,Intake,Owner Surrender,Cats,22,19,21,41,46,86,51,51,39,40,22,34,472
+2021,Intake,Owner Surrender,Dogs,24,12,29,11,13,13,15,14,18,18,15,38,220
+2021,Intake,Owner Surrender,Small Animals,9,5,15,10,18,23,26,17,17,8,19,5,172
+2021,Intake,Adoption Returns,Cats,0,2,2,3,0,3,2,3,3,1,5,0,24
+2021,Intake,Adoption Returns,Dogs,4,5,4,6,6,4,6,7,7,12,11,6,78
+2021,Intake,Adoption Returns,Small Animals,0,0,0,2,0,0,2,0,1,0,1,0,6
+2021,Intake,Transfer/AC intake,Cats,2,4,2,5,5,4,3,5,12,6,2,7,57
+2021,Intake,Transfer/AC intake,Dogs,33,49,36,23,31,39,39,32,32,32,33,26,405
+2021,Intake,Transfer/AC intake,Small Animals,1,0,0,1,0,1,1,0,1,1,0,0,6
+2021,Intake,Total Intake,Cats,48,47,44,105,110,159,110,140,114,103,66,65,1111
+2021,Intake,Total Intake,Dogs,84,86,113,67,82,86,123,83,86,105,87,105,1107
+2021,Intake,Total Intake,Small Animals,11,5,16,14,19,25,30,18,19,9,22,5,193
+2021,Intake,Total Intake,Grand Totals,143,138,173,186,211,270,263,241,219,217,175,175,2411
+2021,Rescue,Second Chance,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Second Chance,Dogs,1,0,1,1,0,0,0,0,0,0,0,0,3
+2021,Rescue,Second Chance,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Second Chance,Total,1,0,0,1,0,0,0,0,0,0,0,0,2
+2021,Rescue,Breed Specific,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Breed Specific,Dogs,0,0,0,0,0,0,0,1,0,0,0,0,1
+2021,Rescue,Breed Specific,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Breed Specific,Total,0,0,0,0,0,0,0,1,0,0,0,0,1
+2021,Rescue,Other Rescues,Cats,1,0,0,0,0,0,0,0,0,0,0,1,2
+2021,Rescue,Other Rescues,Dogs,0,1,1,1,2,1,1,0,0,1,0,2,10
+2021,Rescue,Other Rescues,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Other Rescues,Total,2,1,1,1,2,1,0,0,0,NA,0,3,11
+2021,Rescue,Total Sent to Rescue,Cats,1,0,0,0,0,0,0,0,0,0,0,1,2
+2021,Rescue,Total Sent to Rescue,Dogs,1,1,2,2,2,1,1,1,0,1,0,2,14
+2021,Rescue,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Rescue,Total Sent to Rescue,Grand Totals,2,1,2,2,2,1,1,1,0,1,0,3,16
+2021,Live Release,Adoption,Cats,80,35,42,64,43,106,165,103,89,132,84,87,1030
+2021,Live Release,Adoption,Dogs,81,82,71,61,66,67,83,104,69,80,79,88,931
+2021,Live Release,Adoption,Small Animals,16,7,9,10,17,24,17,23,10,26,15,8,182
+2021,Live Release,Return to Owner,Cats,1,2,2,2,1,3,3,3,3,1,2,5,28
+2021,Live Release,Return to Owner,Dogs,7,4,25,8,10,5,20,12,20,15,19,17,162
+2021,Live Release,Return to Owner,Small Animals,0,0,0,0,0,0,1,0,0,0,0,0,1
+2021,Live Release,Total Sent to Rescue,Cats,1,0,0,0,0,0,0,0,0,0,0,1,2
+2021,Live Release,Total Sent to Rescue,Dogs,1,1,2,2,2,1,1,1,0,1,0,2,14
+2021,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Live Release,Trap Neuter Release,Cats,0,0,0,0,0,1,0,1,3,2,0,0,7
+2021,Live Release,Live Release Totals,Cats,82,37,44,66,44,110,168,107,95,135,86,93,1067
+2021,Live Release,Live Release Totals,Dogs,89,87,98,71,78,73,104,117,89,96,98,107,1107
+2021,Live Release,Live Release Totals,Small Animals,16,7,9,10,17,24,18,23,10,26,15,8,183
+2021,Live Release,Live Release Totals,Grand Total,187,131,151,147,139,207,290,247,194,257,199,208,2357
+2021,Euthanasia,Owner Request,Cats,0,0,0,0,0,0,0,0,0,0,1,1,2
+2021,Euthanasia,Owner Request,Dogs,0,0,0,1,0,1,0,0,0,1,1,2,6
+2021,Euthanasia,Owner Request,Small Animals,0,0,0,0,0,0,0,0,0,0,0,1,1
+2021,Euthanasia,Health,Cats,4,3,2,3,3,4,5,3,10,2,3,2,44
+2021,Euthanasia,Health,Dogs,0,0,0,0,1,1,1,0,0,0,2,1,6
+2021,Euthanasia,Health,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Died,Cats,2,0,0,2,1,3,1,4,5,4,2,0,24
+2021,Euthanasia,Died,Dogs,1,0,0,1,0,3,1,0,0,0,0,0,6
+2021,Euthanasia,Died,Small Animals,1,0,0,0,1,0,0,1,0,1,0,0,4
+2021,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Behavioral,Dogs,0,0,0,0,1,0,0,1,0,0,1,0,3
+2021,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Aggression,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Aggression,Dogs,0,0,0,0,0,3,0,0,1,0,0,0,4
+2021,Euthanasia,Aggression,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Feral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Feral,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Feral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Age,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Age,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Age,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,Euthanasia,Euthanasia Totals,Cats,6,3,2,5,4,7,6,7,15,6,6,3,70
+2021,Euthanasia,Euthanasia Totals,Dogs,1,0,0,2,2,8,2,1,1,1,4,3,25
+2021,Euthanasia,Euthanasia Totals,Small Animals,1,0,0,0,1,0,0,1,0,1,0,1,5
+2021,Euthanasia,Euthanasia Totals,Grand Totals,8,3,2,7,7,15,8,9,16,8,10,7,100
+2022,Intake,Stray,Cats,19,11,33,32,68,71,87,68,42,59,35,22,547
+2022,Intake,Stray,Dogs,25,28,32,30,45,31,45,27,27,33,39,26,388
+2022,Intake,Stray,Small Animals,1,7,0,2,6,3,7,4,0,3,0,1,34
+2022,Intake,Owner Surrender,Cats,24,23,35,26,50,45,26,19,47,30,41,38,404
+2022,Intake,Owner Surrender,Dogs,28,19,13,15,14,26,10,25,14,22,24,6,216
+2022,Intake,Owner Surrender,Small Animals,4,8,22,12,9,5,10,8,16,10,7,17,128
+2022,Intake,Adoption Returns,Cats,3,3,1,3,0,3,1,4,4,6,4,5,37
+2022,Intake,Adoption Returns,Dogs,11,7,12,12,8,3,3,9,7,7,9,7,95
+2022,Intake,Adoption Returns,Small Animals,0,2,0,0,0,0,1,0,0,0,0,0,3
+2022,Intake,Transfer/AC intake,Cats,4,3,10,4,4,14,10,23,15,13,6,2,108
+2022,Intake,Transfer/AC intake,Dogs,21,36,59,33,37,38,29,28,54,32,30,33,430
+2022,Intake,Transfer/AC intake,Small Animals,0,0,0,3,2,0,3,0,0,0,43,0,51
+2022,Intake,Total Intake,Cats,50,40,79,65,122,133,124,114,108,108,86,67,1096
+2022,Intake,Total Intake,Dogs,85,90,116,90,104,98,87,89,102,94,102,72,1129
+2022,Intake,Total Intake,Small Animals,5,17,22,17,17,8,21,12,16,13,50,18,216
+2022,Intake,Total Intake,Grand Totals,140,147,217,172,243,239,232,215,226,215,238,157,2441
+2022,Rescue,Second Chance,Cats,0,0,0,0,0,0,0,0,0,1,0,0,1
+2022,Rescue,Second Chance,Dogs,0,0,0,1,0,0,0,0,0,0,0,0,1
+2022,Rescue,Second Chance,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Second Chance,Total,0,0,0,1,0,0,0,0,0,1,0,0,2
+2022,Rescue,Breed Specific,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Breed Specific,Dogs,0,0,0,0,0,0,1,0,1,0,0,0,2
+2022,Rescue,Breed Specific,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Breed Specific,Total,0,0,0,0,0,0,0,0,1,0,0,0,1
+2022,Rescue,Other Rescues,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Other Rescues,Dogs,0,0,2,0,2,0,1,1,1,0,0,0,7
+2022,Rescue,Other Rescues,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Other Rescues,Total,0,0,2,0,0,0,2,1,1,0,0,0,6
+2022,Rescue,Total Sent to Rescue,Cats,0,0,0,0,0,0,0,0,0,1,0,0,1
+2022,Rescue,Total Sent to Rescue,Dogs,0,0,2,1,2,0,2,1,2,0,0,0,10
+2022,Rescue,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Rescue,Total Sent to Rescue,Grand Totals,0,0,2,1,2,0,2,1,2,1,0,0,11
+2022,Live Release,Adoption,Cats,65,44,32,74,51,80,122,135,99,114,88,102,1006
+2022,Live Release,Adoption,Dogs,72,52,107,86,75,72,71,107,73,88,86,66,955
+2022,Live Release,Adoption,Small Animals,8,11,21,12,24,16,11,13,13,8,16,34,187
+2022,Live Release,Return to Owner,Cats,2,3,3,0,4,4,2,3,3,8,1,3,36
+2022,Live Release,Return to Owner,Dogs,9,14,14,14,19,10,9,4,12,6,25,7,143
+2022,Live Release,Return to Owner,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Live Release,Total Sent to Rescue,Cats,0,0,0,0,0,0,0,0,0,1,0,0,1
+2022,Live Release,Total Sent to Rescue,Dogs,0,0,2,1,2,0,2,1,2,0,0,0,10
+2022,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Live Release,Trap Neuter Release,Cats,0,0,1,0,0,1,2,1,1,3,1,2,12
+2022,Live Release,Live Release Totals,Cats,67,47,36,74,55,85,126,139,103,126,90,107,1055
+2022,Live Release,Live Release Totals,Dogs,81,66,123,101,96,82,82,112,87,94,111,73,1108
+2022,Live Release,Live Release Totals,Small Animals,8,11,21,12,24,16,11,13,13,8,16,34,187
+2022,Live Release,Live Release Totals,Grand Totals,156,124,180,187,175,183,219,264,203,228,217,214,2350
+2022,Euthanasia,Owner Request,Cats,1,2,0,1,0,1,2,0,1,1,1,0,10
+2022,Euthanasia,Owner Request,Dogs,0,1,0,2,0,0,0,1,2,0,3,2,11
+2022,Euthanasia,Owner Request,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Health,Cats,1,2,3,1,6,9,2,1,2,1,5,2,35
+2022,Euthanasia,Health,Dogs,1,0,1,2,1,2,0,1,0,1,1,1,11
+2022,Euthanasia,Health,Small Animals,1,1,0,0,1,0,1,0,0,0,0,1,5
+2022,Euthanasia,Died,Cats,0,2,1,3,7,9,4,2,3,2,1,0,34
+2022,Euthanasia,Died,Dogs,1,1,0,1,0,0,0,0,0,0,0,0,3
+2022,Euthanasia,Died,Small Animals,0,0,1,1,1,0,0,1,1,0,1,1,7
+2022,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Behavioral,Dogs,1,1,0,0,2,1,1,1,3,0,3,2,15
+2022,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Aggression,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Aggression,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Aggression,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Feral,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Feral,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Feral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Age,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Age,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Age,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,Euthanasia,Euthanasia Totals,Cats,2,6,4,5,13,19,8,3,6,4,7,2,79
+2022,Euthanasia,Euthanasia Totals,Dogs,3,3,1,5,3,3,1,3,5,1,7,5,40
+2022,Euthanasia,Euthanasia Totals,Small Animals,1,1,1,1,2,0,1,1,1,0,1,2,12
+2022,Euthanasia,Euthanasia Totals,Grand Totals,6,10,6,11,18,22,10,7,12,5,15,9,131
+2023,Intake,Stray,Cats,22,25,24,23,81,63,96,92,81,48,26,19,600
+2023,Intake,Stray,Dogs,18,37,47,45,48,42,41,34,44,12,25,53,446
+2023,Intake,Stray,Small Animals,1,1,0,1,0,0,1,0,0,4,1,0,9
+2023,Intake,Owner Surrender,Cats,32,9,23,48,46,27,30,45,47,32,31,27,397
+2023,Intake,Owner Surrender,Dogs,11,31,38,17,29,22,19,12,20,7,21,17,244
+2023,Intake,Owner Surrender,Small Animals,3,17,12,15,2,7,5,7,3,10,17,16,114
+2023,Intake,Adoption Returns,Cats,1,1,3,2,1,1,1,4,6,2,3,5,30
+2023,Intake,Adoption Returns,Dogs,6,11,6,8,8,9,12,10,10,9,5,3,97
+2023,Intake,Adoption Returns,Small Animals,0,0,1,1,0,0,0,0,2,0,0,0,4
+2023,Intake,Animal Control,Cats,3,1,1,1,4,5,4,1,2,0,2,2,26
+2023,Intake,Animal Control,Dogs,23,19,31,28,44,47,31,42,20,48,35,29,397
+2023,Intake,Animal Control,Small Animals,1,1,0,0,25,8,0,2,3,0,0,3,43
+2023,Intake,Transfer In,Cats,0,6,0,6,0,3,0,0,1,0,0,0,16
+2023,Intake,Transfer In,Dogs,0,2,3,0,0,0,0,7,7,0,0,0,19
+2023,Intake,Transfer In,Small Animals,12,0,0,0,10,0,0,0,0,0,0,0,22
+2023,Intake,Total Intake,Cats,58,42,51,80,132,99,131,142,137,82,62,53,1069
+2023,Intake,Total Intake,Dogs,58,100,125,98,129,120,103,105,101,76,86,102,1203
+2023,Intake,Total Intake,Small Animals,17,19,13,17,37,15,6,9,8,14,18,19,192
+2023,Intake,Total Intake,Grand Totals,133,161,189,195,298,234,240,256,246,172,166,174,2464
+2023,Live Release,Adoption,Cats,56,40,41,45,83,102,115,115,116,115,65,82,975
+2023,Live Release,Adoption,Dogs,55,75,99,85,87,85,87,116,76,82,62,86,995
+2023,Live Release,Adoption,Small Animals,19,22,27,16,7,20,20,9,14,17,5,29,205
+2023,Live Release,Return to Owner,Cats,1,1,5,2,1,3,11,3,4,3,5,1,40
+2023,Live Release,Return to Owner,Dogs,0,14,14,19,22,13,15,6,10,5,4,10,132
+2023,Live Release,Return to Owner,Small Animals,0,0,0,0,0,0,0,0,0,1,0,0,1
+2023,Live Release,Total Sent to Rescue,Cats,0,0,0,0,0,0,1,0,2,0,0,0,3
+2023,Live Release,Total Sent to Rescue,Dogs,0,0,1,0,0,0,0,1,2,0,0,1,5
+2023,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,0,1,0,1
+2023,Live Release,Trap Neuter Release,Cats,0,0,1,0,0,0,0,0,1,0,0,1,3
+2023,Live Release,Live Release Totals,Cats,57,41,47,47,84,105,127,118,123,118,70,84,1021
+2023,Live Release,Live Release Totals,Dogs,55,89,114,104,109,98,102,123,88,87,66,97,1132
+2023,Live Release,Live Release Totals,Small Animals,19,22,27,16,7,20,20,9,14,18,6,29,207
+2023,Live Release,Live Release Totals,Grand Totals,131,152,188,167,200,223,249,250,225,223,142,210,2360
+2023,Euthanasia,Owner Request,Cats,2,2,0,1,0,0,0,3,1,0,0,1,10
+2023,Euthanasia,Owner Request,Dogs,3,1,2,1,7,2,2,1,0,1,2,1,23
+2023,Euthanasia,Owner Request,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,Euthanasia,Health,Cats,1,3,0,1,1,0,4,6,8,6,0,1,31
+2023,Euthanasia,Health,Dogs,1,1,0,1,3,1,1,1,2,1,1,0,13
+2023,Euthanasia,Health,Small Animals,0,1,0,0,0,0,1,0,0,0,0,1,3
+2023,Euthanasia,Died,Cats,0,1,1,1,6,2,8,4,1,1,1,0,26
+2023,Euthanasia,Died,Dogs,0,0,0,0,1,1,1,1,0,0,1,1,6
+2023,Euthanasia,Died,Small Animals,1,0,4,0,1,0,0,0,0,0,0,0,6
+2023,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,0,0,1,1
+2023,Euthanasia,Behavioral,Dogs,1,2,3,3,1,5,3,1,1,2,4,3,29
+2023,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,Euthanasia,Euthanasia Totals,Cats,3,6,1,3,7,0,12,13,10,7,1,3,66
+2023,Euthanasia,Euthanasia Totals,Dogs,5,4,5,5,12,9,7,4,3,4,8,5,71
+2023,Euthanasia,Euthanasia Totals,Small Animals,1,1,4,0,1,0,1,0,0,0,0,1,9
+2023,Euthanasia,Euthanasia Totals,Grand Totals,9,11,10,8,20,9,20,17,13,11,9,9,146
+2024,Intake,Stray,Cats,22,17,19,42,64,104,94,102,88,NA,NA,NA,552
+2024,Intake,Stray,Dogs,29,25,46,36,28,23,36,29,39,NA,NA,NA,291
+2024,Intake,Stray,Small Animals,0,3,4,2,2,0,0,1,2,NA,NA,NA,14
+2024,Intake,Owner Surrender,Cats,21,30,32,29,56,51,23,30,19,NA,NA,NA,291
+2024,Intake,Owner Surrender,Dogs,12,17,36,4,13,13,19,8,9,NA,NA,NA,131
+2024,Intake,Owner Surrender,Small Animals,12,5,4,2,7,11,7,10,10,NA,NA,NA,68
+2024,Intake,Adoption Returns,Cats,3,1,2,2,2,3,1,1,0,NA,NA,NA,15
+2024,Intake,Adoption Returns,Dogs,3,8,11,11,8,6,12,6,8,NA,NA,NA,73
+2024,Intake,Adoption Returns,Small Animals,0,1,0,0,0,0,0,0,1,NA,NA,NA,2
+2024,Intake,Animal Control,Cats,16,1,4,1,2,9,6,5,10,NA,NA,NA,54
+2024,Intake,Animal Control,Dogs,23,29,46,56,34,53,46,30,48,NA,NA,NA,365
+2024,Intake,Animal Control,Small Animals,0,2,2,0,2,0,0,1,0,NA,NA,NA,7
+2024,Intake,Transfer In,Cats,0,0,1,0,0,0,0,0,0,NA,NA,NA,1
+2024,Intake,Transfer In,Dogs,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Intake,Transfer In,Small Animals,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Intake,Total Intake,Cats,62,49,58,74,124,167,124,138,117,0,0,0,913
+2024,Intake,Total Intake,Dogs,67,79,139,107,83,95,113,73,104,0,0,0,860
+2024,Intake,Total Intake,Small Animals,12,11,10,4,11,11,7,12,13,0,0,0,91
+2024,Intake,Total Intake,Grand Totals,141,139,207,185,218,273,244,223,234,0,0,0,1864
+2024,Live Release,Adoption,Cats,53,49,51,30,50,112,155,122,97,NA,NA,NA,719
+2024,Live Release,Adoption,Dogs,83,73,89,84,66,79,95,76,65,NA,NA,NA,710
+2024,Live Release,Adoption,Small Animals,4,10,10,10,15,7,1,16,9,NA,NA,NA,82
+2024,Live Release,Return to Owner,Cats,0,3,1,3,3,8,3,2,3,NA,NA,NA,26
+2024,Live Release,Return to Owner,Dogs,7,7,15,13,9,4,13,9,14,NA,NA,NA,91
+2024,Live Release,Return to Owner,Small Animals,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Live Release,Total Sent to Rescue,Cats,1,0,0,0,0,0,1,0,1,NA,NA,NA,3
+2024,Live Release,Total Sent to Rescue,Dogs,0,0,0,0,0,1,0,2,1,NA,NA,NA,4
+2024,Live Release,Total Sent to Rescue,Small Animals,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Live Release,Trap Neuter Release,Cats,1,0,0,1,0,0,0,0,0,NA,NA,NA,2
+2024,Live Release,Live Release Totals,Cats,55,52,52,34,53,120,159,124,101,0,0,0,750
+2024,Live Release,Live Release Totals,Dogs,90,80,104,97,75,84,108,87,80,0,0,0,805
+2024,Live Release,Live Release Totals,Small Animals,4,10,10,10,15,7,1,16,9,0,0,0,82
+2024,Live Release,Live Release Totals,Grand Total,149,142,166,141,143,211,268,227,190,0,0,0,1637
+2024,Euthanasia,Owner Request,Cats,1,0,2,1,3,0,0,0,1,NA,NA,NA,8
+2024,Euthanasia,Owner Request,Dogs,3,3,2,1,0,1,2,2,2,NA,NA,NA,16
+2024,Euthanasia,Owner Request,Small Animals,0,0,1,0,0,0,0,0,0,NA,NA,NA,1
+2024,Euthanasia,Health,Cats,1,2,5,4,3,6,7,7,5,NA,NA,NA,40
+2024,Euthanasia,Health,Dogs,1,2,0,15,2,0,0,0,0,NA,NA,NA,20
+2024,Euthanasia,Health,Small Animals,0,1,1,1,0,0,0,0,0,NA,NA,NA,3
+2024,Euthanasia,Died,Cats,0,1,1,4,3,2,3,2,6,NA,NA,NA,22
+2024,Euthanasia,Died,Dogs,1,1,1,0,1,0,1,0,1,NA,NA,NA,6
+2024,Euthanasia,Died,Small Animals,0,0,0,1,1,0,0,1,0,NA,NA,NA,3
+2024,Euthanasia,Behavioral,Cats,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Euthanasia,Behavioral,Dogs,1,1,4,6,1,1,4,1,3,NA,NA,NA,22
+2024,Euthanasia,Behavioral,Small Animals,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Euthanasia,Space,Cats,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Euthanasia,Space,Dogs,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Euthanasia,Space,Small Animals,0,0,0,0,0,0,0,0,0,NA,NA,NA,0
+2024,Euthanasia,Euthanasia Totals,Cats,2,3,8,9,9,0,10,9,12,0,0,0,62
+2024,Euthanasia,Euthanasia Totals,Dogs,6,7,7,22,4,2,7,3,6,0,0,0,64
+2024,Euthanasia,Euthanasia Totals,Small Animals,0,1,2,2,1,0,0,1,0,0,0,0,7
+2024,Euthanasia,Euthanasia Totals,Grand Totals,8,11,17,33,14,2,17,13,18,0,0,0,133
