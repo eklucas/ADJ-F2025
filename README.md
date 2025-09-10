@@ -8,6 +8,7 @@ Each class period I will commit the code that we work through.
 
 -    Aug 27: [Introduction to sorting, filtering, and summarizing](https://eklucas.github.io/ADJ-F2025/scripts/day-one-r-notebook.html)
 -	 Sep 3: [Review using National Parks data](https://eklucas.github.io/ADJ-F2025/scripts/nps-review.html)
+-    Sep 3: [Analyzing CMHS pet intake data](https://eklucas.github.io/ADJ-F2025/scripts/practice-CMHS-pets.html)
 
 
 Because GitHub is not meant to hold large data files, you will find most of the data files we use in class on Canvas. 

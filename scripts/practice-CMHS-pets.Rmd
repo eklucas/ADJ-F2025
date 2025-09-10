@@ -1,0 +1,129 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+pets <- read_csv("data/cmhspets.csv")
+```
+
+### Assessment
+
+how many rows? 
+400
+
+what is one row? 
+one species within a subcategory within one year
+
+what's in every column?
+```{r}
+pets %>% count(year)
+# six years of data
+
+pets %>% count(table)
+# one NA in table
+
+pets %>% count(subcategory)
+# some total subcategories
+
+pets %>% count(species)
+# some totals in species
+
+summary(pets)
+```
+
+### Questions
+
+What subcategory made up the highest amount of intakes?
+rephrased:
+Which subcategory in the intake table had the highest number of animals? 
+```{r}
+pets %>% 
+  filter(table == "Intake" & subcategory != "Total Intake") %>% 
+  group_by(subcategory) %>% 
+  summarise(total_animals = sum(ytd)) %>% 
+  arrange(desc(total_animals))
+```
+
+What are the intake totals year over year?
+```{r}
+pets %>% 
+  filter(subcategory == "Total Intake" & species == "Grand Totals") %>% 
+  group_by(year) %>% 
+  summarise(total = sum(ytd))
+```
+
+What months see the most intakes? 
+```{r}
+pets %>% 
+  filter(subcategory == "Total Intake" & species == "Grand Totals") %>% 
+  summarise(jan = sum(january),
+            feb = sum(february),
+            march = sum(march),
+            april = sum(april),
+            may = sum(may),
+            june = sum(june),
+            july = sum(july),
+            aug = sum(august),
+            sept = sum(september),
+            oct = sum(october),
+            nov = sum(november),
+            dec = sum(december))
+
+# an easier way to do this is to reshape your data (a sneak peak at what we'll cover in data cleaning):
+pets %>% 
+  filter(subcategory == "Total Intake" & species == "Grand Totals") %>% 
+  pivot_longer(cols = 5:17, names_to = "months", values_to = "animals") %>% 
+  group_by(months) %>% 
+  summarise(total = sum(animals)) %>% 
+  arrange(desc(total))
+```
+
+What kinds of animals are the most common? 
+As a pct of intake animals, are cats or dogs more likely to be adopted? 
+```{r}
+pets %>% 
+  filter(species %in% c("Cats","Dogs") & (table == "Intake" & subcategory == "Total Intake")) %>% 
+  group_by(species) %>% 
+  summarise(total_intake = sum(ytd))
+
+pets %>% 
+  filter(species %in% c("Cats","Dogs") & (table == "Live Release" & subcategory == "Adoption")) %>%
+  group_by(species) %>% 
+  summarise(total_intake = sum(ytd))
+
+# Cats: 89%
+6359/7156
+  
+# Dogs: 81%
+5493/6742
+```
+
+How many animals have they euthanized in these six years? 
+```{r}
+pets %>% 
+  filter(subcategory == "Euthanasia Totals" & species == "Grand Totals") %>% 
+  summarise(total = sum(ytd))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
