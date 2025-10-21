@@ -14,7 +14,7 @@ In class we walked through all the decisions required for making a request of th
 Request URL:
 http://wonder.cdc.gov/controller/saved/D176/D451F468
 
-Another thing to note is that if you're going to identify people who died of a particular disease or illness, you'll likely need to understand what codes to select for 1) underlying cause of death, which is the primary cause, and 2) multiple causes of death, or contributing causes of death. For our example we used [this methodology]("documents/using-icd-10-codes-to-assess-opioid-related-overdose-deaths.pdf") to identify people who died where opioids were involved.
+Another thing to note is that if you're going to identify people who died of a particular disease or illness, you'll likely need to understand what codes to select for 1) underlying cause of death, which is the primary cause, and 2) multiple causes of death, or contributing causes of death. For our example we used [this methodology](../documents/using-icd-10-codes-to-assess-opioid-related-overdose-deaths.pdf) to identify people who died where opioids were involved.
 
 ```{r, message = F}
 library(tidyverse)
