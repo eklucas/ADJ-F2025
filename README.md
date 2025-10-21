@@ -24,7 +24,7 @@ The [tipsheets](/tipsheets) folder has the following resources:
 	- strings.pdf
 	- tidy.pdf
 -   [R-Functions](https://eklucas.github.io/ADJ-F2025/tipsheets/R-Functions.html): a guide to the basic R functions that will be most useful to you in analyzing data (consider this a good list of functions you should master by the end of the semester).
--   [ChatGPT group_by() helper](https://github.com/eklucas/ADJ-F2025/blob/main/tipsheets/ChatGPT%20grou_by()%20helper.pdf)): a guide (written helpfully by ChatGPT) to understanding how grouping affects other functions.
+-   [ChatGPT group_by() helper](https://github.com/eklucas/ADJ-F2025/blob/main/tipsheets/ChatGPT%20group_by%20helper.pdf): a guide (written helpfully by ChatGPT) to understanding how grouping affects other functions.
 -   [R-dictionary](https://eklucas.github.io/ADJ-F2025/tipsheets/R-dictionary.html): a list of vocabularly that we will use over and over again to refer to various features of the R language.
 -   [Newsroom Math Crib Sheet.pdf](https://github.com/eklucas/ADJ-F2025/blob/main/tipsheets/Newsroom%20Math%20Crib%20Sheet.pdf): a handy guide to basic newsroom math formulas (I just give this out to everyone I meet).
 -   [Putting API keys in your environment.txt](https://github.com/eklucas/ADJ-F2025/blob/main/tipsheets/Putting%20API%20keys%20in%20your%20environment.txt): a guide to using API keys, which will be necessary for Module 5.
