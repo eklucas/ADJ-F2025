@@ -1,0 +1,997 @@
+"Notes","Residence County","Residence County Code","Year","Year Code",Deaths,Population,Crude Rate
+,"Adair County, MO","29001","2018","2018",0,25339,Unreliable
+,"Adair County, MO","29001","2019","2019",0,25343,Unreliable
+,"Adair County, MO","29001","2020","2020",Suppressed,25399,Suppressed
+,"Adair County, MO","29001","2021","2021",Suppressed,25185,Suppressed
+,"Adair County, MO","29001","2022","2022",0,25165,Unreliable
+,"Adair County, MO","29001","2023","2023",Suppressed,25122,Suppressed
+,"Adair County, MO","29001","2024 (provisional)","2024",0,25122,Unreliable
+,"Adair County, MO","29001","2025 (provisional and partial)","2025",0,25122,Unreliable
+,"Andrew County, MO","29003","2018","2018",0,17607,Unreliable
+,"Andrew County, MO","29003","2019","2019",0,17712,Unreliable
+,"Andrew County, MO","29003","2020","2020",0,17586,Unreliable
+,"Andrew County, MO","29003","2021","2021",Suppressed,18002,Suppressed
+,"Andrew County, MO","29003","2022","2022",Suppressed,18003,Suppressed
+,"Andrew County, MO","29003","2023","2023",Suppressed,18127,Suppressed
+,"Andrew County, MO","29003","2024 (provisional)","2024",Suppressed,18127,Suppressed
+,"Andrew County, MO","29003","2025 (provisional and partial)","2025",0,18127,Unreliable
+,"Atchison County, MO","29005","2018","2018",0,5171,Unreliable
+,"Atchison County, MO","29005","2019","2019",0,5143,Unreliable
+,"Atchison County, MO","29005","2020","2020",0,5096,Unreliable
+,"Atchison County, MO","29005","2021","2021",Suppressed,5234,Suppressed
+,"Atchison County, MO","29005","2022","2022",0,5182,Unreliable
+,"Atchison County, MO","29005","2023","2023",0,5107,Unreliable
+,"Atchison County, MO","29005","2024 (provisional)","2024",0,5107,Unreliable
+,"Atchison County, MO","29005","2025 (provisional and partial)","2025",0,5107,Unreliable
+,"Audrain County, MO","29007","2018","2018",Suppressed,25473,Suppressed
+,"Audrain County, MO","29007","2019","2019",Suppressed,25388,Suppressed
+,"Audrain County, MO","29007","2020","2020",Suppressed,24835,Suppressed
+,"Audrain County, MO","29007","2021","2021",Suppressed,24982,Suppressed
+,"Audrain County, MO","29007","2022","2022",Suppressed,24434,Suppressed
+,"Audrain County, MO","29007","2023","2023",Suppressed,24394,Suppressed
+,"Audrain County, MO","29007","2024 (provisional)","2024",Suppressed,24394,Suppressed
+,"Audrain County, MO","29007","2025 (provisional and partial)","2025",0,24394,Unreliable
+,"Barry County, MO","29009","2018","2018",Suppressed,35886,Suppressed
+,"Barry County, MO","29009","2019","2019",0,35789,Unreliable
+,"Barry County, MO","29009","2020","2020",Suppressed,35818,Suppressed
+,"Barry County, MO","29009","2021","2021",0,34712,Unreliable
+,"Barry County, MO","29009","2022","2022",Suppressed,34926,Suppressed
+,"Barry County, MO","29009","2023","2023",Suppressed,35265,Suppressed
+,"Barry County, MO","29009","2024 (provisional)","2024",0,35265,Unreliable
+,"Barry County, MO","29009","2025 (provisional and partial)","2025",0,35265,Unreliable
+,"Barton County, MO","29011","2018","2018",0,11798,Unreliable
+,"Barton County, MO","29011","2019","2019",Suppressed,11754,Suppressed
+,"Barton County, MO","29011","2020","2020",0,11592,Unreliable
+,"Barton County, MO","29011","2021","2021",Suppressed,11658,Suppressed
+,"Barton County, MO","29011","2022","2022",0,11694,Unreliable
+,"Barton County, MO","29011","2023","2023",Suppressed,11731,Suppressed
+,"Barton County, MO","29011","2024 (provisional)","2024",0,11731,Unreliable
+,"Barton County, MO","29011","2025 (provisional and partial)","2025",0,11731,Unreliable
+,"Bates County, MO","29013","2018","2018",Suppressed,16320,Suppressed
+,"Bates County, MO","29013","2019","2019",Suppressed,16172,Suppressed
+,"Bates County, MO","29013","2020","2020",0,16242,Unreliable
+,"Bates County, MO","29013","2021","2021",Suppressed,16105,Suppressed
+,"Bates County, MO","29013","2022","2022",Suppressed,16177,Suppressed
+,"Bates County, MO","29013","2023","2023",0,16242,Unreliable
+,"Bates County, MO","29013","2024 (provisional)","2024",Suppressed,16242,Suppressed
+,"Bates County, MO","29013","2025 (provisional and partial)","2025",Suppressed,16242,Suppressed
+,"Benton County, MO","29015","2018","2018",Suppressed,19278,Suppressed
+,"Benton County, MO","29015","2019","2019",Suppressed,19443,Suppressed
+,"Benton County, MO","29015","2020","2020",Suppressed,19627,Suppressed
+,"Benton County, MO","29015","2021","2021",0,19908,Unreliable
+,"Benton County, MO","29015","2022","2022",0,20224,Unreliable
+,"Benton County, MO","29015","2023","2023",Suppressed,20552,Suppressed
+,"Benton County, MO","29015","2024 (provisional)","2024",Suppressed,20552,Suppressed
+,"Benton County, MO","29015","2025 (provisional and partial)","2025",0,20552,Unreliable
+,"Bollinger County, MO","29017","2018","2018",0,12169,Unreliable
+,"Bollinger County, MO","29017","2019","2019",0,12133,Unreliable
+,"Bollinger County, MO","29017","2020","2020",Suppressed,12111,Suppressed
+,"Bollinger County, MO","29017","2021","2021",Suppressed,10556,Suppressed
+,"Bollinger County, MO","29017","2022","2022",0,10518,Unreliable
+,"Bollinger County, MO","29017","2023","2023",Suppressed,10544,Suppressed
+,"Bollinger County, MO","29017","2024 (provisional)","2024",Suppressed,10544,Suppressed
+,"Bollinger County, MO","29017","2025 (provisional and partial)","2025",0,10544,Unreliable
+,"Boone County, MO","29019","2018","2018",24,180005,13.3
+,"Boone County, MO","29019","2019","2019",20,180463,11.1
+,"Boone County, MO","29019","2020","2020",23,182991,12.6
+,"Boone County, MO","29019","2021","2021",34,185840,18.3
+,"Boone County, MO","29019","2022","2022",36,187690,19.2
+,"Boone County, MO","29019","2023","2023",37,189463,19.5
+,"Boone County, MO","29019","2024 (provisional)","2024",18,189463,Unreliable
+,"Boone County, MO","29019","2025 (provisional and partial)","2025",Suppressed,189463,Suppressed
+,"Buchanan County, MO","29021","2018","2018",10,88571,Unreliable
+,"Buchanan County, MO","29021","2019","2019",Suppressed,87364,Suppressed
+,"Buchanan County, MO","29021","2020","2020",16,86530,Unreliable
+,"Buchanan County, MO","29021","2021","2021",18,83853,Unreliable
+,"Buchanan County, MO","29021","2022","2022",31,82911,37.4
+,"Buchanan County, MO","29021","2023","2023",22,82956,26.5
+,"Buchanan County, MO","29021","2024 (provisional)","2024",21,82956,25.3
+,"Buchanan County, MO","29021","2025 (provisional and partial)","2025",Suppressed,82956,Suppressed
+,"Butler County, MO","29023","2018","2018",Suppressed,42639,Suppressed
+,"Butler County, MO","29023","2019","2019",Suppressed,42478,Suppressed
+,"Butler County, MO","29023","2020","2020",Suppressed,42178,Suppressed
+,"Butler County, MO","29023","2021","2021",13,42101,Unreliable
+,"Butler County, MO","29023","2022","2022",Suppressed,42179,Suppressed
+,"Butler County, MO","29023","2023","2023",Suppressed,41948,Suppressed
+,"Butler County, MO","29023","2024 (provisional)","2024",Suppressed,41948,Suppressed
+,"Butler County, MO","29023","2025 (provisional and partial)","2025",0,41948,Unreliable
+,"Caldwell County, MO","29025","2018","2018",Suppressed,9108,Suppressed
+,"Caldwell County, MO","29025","2019","2019",Suppressed,9020,Suppressed
+,"Caldwell County, MO","29025","2020","2020",Suppressed,9051,Suppressed
+,"Caldwell County, MO","29025","2021","2021",0,8897,Unreliable
+,"Caldwell County, MO","29025","2022","2022",Suppressed,8933,Suppressed
+,"Caldwell County, MO","29025","2023","2023",0,8955,Unreliable
+,"Caldwell County, MO","29025","2024 (provisional)","2024",Suppressed,8955,Suppressed
+,"Caldwell County, MO","29025","2025 (provisional and partial)","2025",0,8955,Unreliable
+,"Callaway County, MO","29027","2018","2018",Suppressed,44889,Suppressed
+,"Callaway County, MO","29027","2019","2019",Suppressed,44743,Suppressed
+,"Callaway County, MO","29027","2020","2020",Suppressed,44887,Suppressed
+,"Callaway County, MO","29027","2021","2021",10,44638,Unreliable
+,"Callaway County, MO","29027","2022","2022",13,44762,Unreliable
+,"Callaway County, MO","29027","2023","2023",Suppressed,44731,Suppressed
+,"Callaway County, MO","29027","2024 (provisional)","2024",Suppressed,44731,Suppressed
+,"Callaway County, MO","29027","2025 (provisional and partial)","2025",Suppressed,44731,Suppressed
+,"Camden County, MO","29029","2018","2018",Suppressed,45815,Suppressed
+,"Camden County, MO","29029","2019","2019",Suppressed,46305,Suppressed
+,"Camden County, MO","29029","2020","2020",Suppressed,46414,Suppressed
+,"Camden County, MO","29029","2021","2021",Suppressed,43436,Suppressed
+,"Camden County, MO","29029","2022","2022",0,43768,Unreliable
+,"Camden County, MO","29029","2023","2023",Suppressed,44044,Suppressed
+,"Camden County, MO","29029","2024 (provisional)","2024",Suppressed,44044,Suppressed
+,"Camden County, MO","29029","2025 (provisional and partial)","2025",0,44044,Unreliable
+,"Cape Girardeau County, MO","29031","2018","2018",Suppressed,78753,Suppressed
+,"Cape Girardeau County, MO","29031","2019","2019",Suppressed,78871,Suppressed
+,"Cape Girardeau County, MO","29031","2020","2020",Suppressed,79512,Suppressed
+,"Cape Girardeau County, MO","29031","2021","2021",Suppressed,82113,Suppressed
+,"Cape Girardeau County, MO","29031","2022","2022",Suppressed,82899,Suppressed
+,"Cape Girardeau County, MO","29031","2023","2023",Suppressed,82984,Suppressed
+,"Cape Girardeau County, MO","29031","2024 (provisional)","2024",Suppressed,82984,Suppressed
+,"Cape Girardeau County, MO","29031","2025 (provisional and partial)","2025",Suppressed,82984,Suppressed
+,"Carroll County, MO","29033","2018","2018",Suppressed,8743,Suppressed
+,"Carroll County, MO","29033","2019","2019",0,8679,Unreliable
+,"Carroll County, MO","29033","2020","2020",Suppressed,8554,Suppressed
+,"Carroll County, MO","29033","2021","2021",0,8376,Unreliable
+,"Carroll County, MO","29033","2022","2022",Suppressed,8423,Suppressed
+,"Carroll County, MO","29033","2023","2023",0,8391,Unreliable
+,"Carroll County, MO","29033","2024 (provisional)","2024",0,8391,Unreliable
+,"Carroll County, MO","29033","2025 (provisional and partial)","2025",0,8391,Unreliable
+,"Carter County, MO","29035","2018","2018",0,6054,Unreliable
+,"Carter County, MO","29035","2019","2019",0,5982,Unreliable
+,"Carter County, MO","29035","2020","2020",0,5991,Unreliable
+,"Carter County, MO","29035","2021","2021",0,5320,Unreliable
+,"Carter County, MO","29035","2022","2022",0,5268,Unreliable
+,"Carter County, MO","29035","2023","2023",0,5303,Unreliable
+,"Carter County, MO","29035","2024 (provisional)","2024",0,5303,Unreliable
+,"Carter County, MO","29035","2025 (provisional and partial)","2025",0,5303,Unreliable
+,"Cass County, MO","29037","2018","2018",Suppressed,104954,Suppressed
+,"Cass County, MO","29037","2019","2019",Suppressed,105780,Suppressed
+,"Cass County, MO","29037","2020","2020",10,106806,Unreliable
+,"Cass County, MO","29037","2021","2021",12,109638,Unreliable
+,"Cass County, MO","29037","2022","2022",19,110394,Unreliable
+,"Cass County, MO","29037","2023","2023",15,111732,Unreliable
+,"Cass County, MO","29037","2024 (provisional)","2024",16,111732,Unreliable
+,"Cass County, MO","29037","2025 (provisional and partial)","2025",Suppressed,111732,Suppressed
+,"Cedar County, MO","29039","2018","2018",0,14165,Unreliable
+,"Cedar County, MO","29039","2019","2019",0,14349,Unreliable
+,"Cedar County, MO","29039","2020","2020",Suppressed,14322,Suppressed
+,"Cedar County, MO","29039","2021","2021",0,14496,Unreliable
+,"Cedar County, MO","29039","2022","2022",Suppressed,14601,Suppressed
+,"Cedar County, MO","29039","2023","2023",Suppressed,14672,Suppressed
+,"Cedar County, MO","29039","2024 (provisional)","2024",Suppressed,14672,Suppressed
+,"Cedar County, MO","29039","2025 (provisional and partial)","2025",Suppressed,14672,Suppressed
+,"Chariton County, MO","29041","2018","2018",0,7451,Unreliable
+,"Chariton County, MO","29041","2019","2019",0,7426,Unreliable
+,"Chariton County, MO","29041","2020","2020",0,7360,Unreliable
+,"Chariton County, MO","29041","2021","2021",0,7356,Unreliable
+,"Chariton County, MO","29041","2022","2022",0,7386,Unreliable
+,"Chariton County, MO","29041","2023","2023",Suppressed,7399,Suppressed
+,"Chariton County, MO","29041","2024 (provisional)","2024",0,7399,Unreliable
+,"Chariton County, MO","29041","2025 (provisional and partial)","2025",0,7399,Unreliable
+,"Christian County, MO","29043","2018","2018",Suppressed,86983,Suppressed
+,"Christian County, MO","29043","2019","2019",Suppressed,88595,Suppressed
+,"Christian County, MO","29043","2020","2020",Suppressed,90655,Suppressed
+,"Christian County, MO","29043","2021","2021",15,91499,Unreliable
+,"Christian County, MO","29043","2022","2022",15,93114,Unreliable
+,"Christian County, MO","29043","2023","2023",12,94422,Unreliable
+,"Christian County, MO","29043","2024 (provisional)","2024",Suppressed,94422,Suppressed
+,"Christian County, MO","29043","2025 (provisional and partial)","2025",0,94422,Unreliable
+,"Clark County, MO","29045","2018","2018",0,6842,Unreliable
+,"Clark County, MO","29045","2019","2019",0,6797,Unreliable
+,"Clark County, MO","29045","2020","2020",0,6830,Unreliable
+,"Clark County, MO","29045","2021","2021",0,6736,Unreliable
+,"Clark County, MO","29045","2022","2022",0,6723,Unreliable
+,"Clark County, MO","29045","2023","2023",0,6641,Unreliable
+,"Clark County, MO","29045","2024 (provisional)","2024",Suppressed,6641,Suppressed
+,"Clark County, MO","29045","2025 (provisional and partial)","2025",0,6641,Unreliable
+,"Clay County, MO","29047","2018","2018",18,246365,Unreliable
+,"Clay County, MO","29047","2019","2019",16,249948,Unreliable
+,"Clay County, MO","29047","2020","2020",30,253463,11.8
+,"Clay County, MO","29047","2021","2021",42,255518,16.4
+,"Clay County, MO","29047","2022","2022",44,257033,17.1
+,"Clay County, MO","29047","2023","2023",41,259772,15.8
+,"Clay County, MO","29047","2024 (provisional)","2024",35,259772,13.5
+,"Clay County, MO","29047","2025 (provisional and partial)","2025",Suppressed,259772,Suppressed
+,"Clinton County, MO","29049","2018","2018",0,20470,Unreliable
+,"Clinton County, MO","29049","2019","2019",0,20387,Unreliable
+,"Clinton County, MO","29049","2020","2020",Suppressed,20553,Suppressed
+,"Clinton County, MO","29049","2021","2021",Suppressed,21287,Suppressed
+,"Clinton County, MO","29049","2022","2022",Suppressed,21328,Suppressed
+,"Clinton County, MO","29049","2023","2023",Suppressed,21548,Suppressed
+,"Clinton County, MO","29049","2024 (provisional)","2024",Suppressed,21548,Suppressed
+,"Clinton County, MO","29049","2025 (provisional and partial)","2025",0,21548,Unreliable
+,"Cole County, MO","29051","2018","2018",Suppressed,76796,Suppressed
+,"Cole County, MO","29051","2019","2019",Suppressed,76745,Suppressed
+,"Cole County, MO","29051","2020","2020",Suppressed,76191,Suppressed
+,"Cole County, MO","29051","2021","2021",Suppressed,77205,Suppressed
+,"Cole County, MO","29051","2022","2022",Suppressed,76969,Suppressed
+,"Cole County, MO","29051","2023","2023",11,77278,Unreliable
+,"Cole County, MO","29051","2024 (provisional)","2024",Suppressed,77278,Suppressed
+,"Cole County, MO","29051","2025 (provisional and partial)","2025",Suppressed,77278,Suppressed
+,"Cooper County, MO","29053","2018","2018",0,17603,Unreliable
+,"Cooper County, MO","29053","2019","2019",Suppressed,17709,Suppressed
+,"Cooper County, MO","29053","2020","2020",Suppressed,17102,Suppressed
+,"Cooper County, MO","29053","2021","2021",0,17115,Unreliable
+,"Cooper County, MO","29053","2022","2022",Suppressed,16772,Suppressed
+,"Cooper County, MO","29053","2023","2023",0,16947,Unreliable
+,"Cooper County, MO","29053","2024 (provisional)","2024",Suppressed,16947,Suppressed
+,"Cooper County, MO","29053","2025 (provisional and partial)","2025",0,16947,Unreliable
+,"Crawford County, MO","29055","2018","2018",Suppressed,23957,Suppressed
+,"Crawford County, MO","29055","2019","2019",10,23920,Unreliable
+,"Crawford County, MO","29055","2020","2020",Suppressed,23739,Suppressed
+,"Crawford County, MO","29055","2021","2021",16,22807,Unreliable
+,"Crawford County, MO","29055","2022","2022",10,22659,Unreliable
+,"Crawford County, MO","29055","2023","2023",Suppressed,22719,Suppressed
+,"Crawford County, MO","29055","2024 (provisional)","2024",Suppressed,22719,Suppressed
+,"Crawford County, MO","29055","2025 (provisional and partial)","2025",Suppressed,22719,Suppressed
+,"Dade County, MO","29057","2018","2018",Suppressed,7569,Suppressed
+,"Dade County, MO","29057","2019","2019",0,7561,Unreliable
+,"Dade County, MO","29057","2020","2020",Suppressed,7568,Suppressed
+,"Dade County, MO","29057","2021","2021",0,7599,Unreliable
+,"Dade County, MO","29057","2022","2022",Suppressed,7660,Suppressed
+,"Dade County, MO","29057","2023","2023",Suppressed,7716,Suppressed
+,"Dade County, MO","29057","2024 (provisional)","2024",0,7716,Unreliable
+,"Dade County, MO","29057","2025 (provisional and partial)","2025",0,7716,Unreliable
+,"Dallas County, MO","29059","2018","2018",0,16762,Unreliable
+,"Dallas County, MO","29059","2019","2019",Suppressed,16878,Suppressed
+,"Dallas County, MO","29059","2020","2020",Suppressed,17219,Suppressed
+,"Dallas County, MO","29059","2021","2021",0,17341,Unreliable
+,"Dallas County, MO","29059","2022","2022",Suppressed,17626,Suppressed
+,"Dallas County, MO","29059","2023","2023",Suppressed,17768,Suppressed
+,"Dallas County, MO","29059","2024 (provisional)","2024",Suppressed,17768,Suppressed
+,"Dallas County, MO","29059","2025 (provisional and partial)","2025",0,17768,Unreliable
+,"Daviess County, MO","29061","2018","2018",0,8313,Unreliable
+,"Daviess County, MO","29061","2019","2019",0,8278,Unreliable
+,"Daviess County, MO","29061","2020","2020",0,8283,Unreliable
+,"Daviess County, MO","29061","2021","2021",0,8399,Unreliable
+,"Daviess County, MO","29061","2022","2022",Suppressed,8435,Suppressed
+,"Daviess County, MO","29061","2023","2023",0,8551,Unreliable
+,"Daviess County, MO","29061","2024 (provisional)","2024",0,8551,Unreliable
+,"Daviess County, MO","29061","2025 (provisional and partial)","2025",0,8551,Unreliable
+,"DeKalb County, MO","29063","2018","2018",0,12630,Unreliable
+,"DeKalb County, MO","29063","2019","2019",0,12547,Unreliable
+,"DeKalb County, MO","29063","2020","2020",Suppressed,10944,Suppressed
+,"DeKalb County, MO","29063","2021","2021",Suppressed,11098,Suppressed
+,"DeKalb County, MO","29063","2022","2022",Suppressed,11336,Suppressed
+,"DeKalb County, MO","29063","2023","2023",Suppressed,9899,Suppressed
+,"DeKalb County, MO","29063","2024 (provisional)","2024",0,9899,Unreliable
+,"DeKalb County, MO","29063","2025 (provisional and partial)","2025",0,9899,Unreliable
+,"Dent County, MO","29065","2018","2018",Suppressed,15441,Suppressed
+,"Dent County, MO","29065","2019","2019",Suppressed,15573,Suppressed
+,"Dent County, MO","29065","2020","2020",Suppressed,15481,Suppressed
+,"Dent County, MO","29065","2021","2021",12,14432,Unreliable
+,"Dent County, MO","29065","2022","2022",Suppressed,14467,Suppressed
+,"Dent County, MO","29065","2023","2023",Suppressed,14647,Suppressed
+,"Dent County, MO","29065","2024 (provisional)","2024",Suppressed,14647,Suppressed
+,"Dent County, MO","29065","2025 (provisional and partial)","2025",Suppressed,14647,Suppressed
+,"Douglas County, MO","29067","2018","2018",Suppressed,13373,Suppressed
+,"Douglas County, MO","29067","2019","2019",Suppressed,13185,Suppressed
+,"Douglas County, MO","29067","2020","2020",0,13344,Unreliable
+,"Douglas County, MO","29067","2021","2021",Suppressed,11732,Suppressed
+,"Douglas County, MO","29067","2022","2022",Suppressed,11975,Suppressed
+,"Douglas County, MO","29067","2023","2023",Suppressed,12228,Suppressed
+,"Douglas County, MO","29067","2024 (provisional)","2024",0,12228,Unreliable
+,"Douglas County, MO","29067","2025 (provisional and partial)","2025",0,12228,Unreliable
+,"Dunklin County, MO","29069","2018","2018",Suppressed,29423,Suppressed
+,"Dunklin County, MO","29069","2019","2019",0,29131,Unreliable
+,"Dunklin County, MO","29069","2020","2020",0,28878,Unreliable
+,"Dunklin County, MO","29069","2021","2021",Suppressed,27717,Suppressed
+,"Dunklin County, MO","29069","2022","2022",Suppressed,27406,Suppressed
+,"Dunklin County, MO","29069","2023","2023",Suppressed,27032,Suppressed
+,"Dunklin County, MO","29069","2024 (provisional)","2024",0,27032,Unreliable
+,"Dunklin County, MO","29069","2025 (provisional and partial)","2025",0,27032,Unreliable
+,"Franklin County, MO","29071","2018","2018",32,103670,30.9
+,"Franklin County, MO","29071","2019","2019",33,103967,31.7
+,"Franklin County, MO","29071","2020","2020",46,104469,44.0
+,"Franklin County, MO","29071","2021","2021",36,105231,34.2
+,"Franklin County, MO","29071","2022","2022",37,105879,34.9
+,"Franklin County, MO","29071","2023","2023",23,106404,21.6
+,"Franklin County, MO","29071","2024 (provisional)","2024",17,106404,Unreliable
+,"Franklin County, MO","29071","2025 (provisional and partial)","2025",Suppressed,106404,Suppressed
+,"Gasconade County, MO","29073","2018","2018",Suppressed,14705,Suppressed
+,"Gasconade County, MO","29073","2019","2019",Suppressed,14706,Suppressed
+,"Gasconade County, MO","29073","2020","2020",Suppressed,14566,Suppressed
+,"Gasconade County, MO","29073","2021","2021",Suppressed,14791,Suppressed
+,"Gasconade County, MO","29073","2022","2022",Suppressed,14768,Suppressed
+,"Gasconade County, MO","29073","2023","2023",Suppressed,14705,Suppressed
+,"Gasconade County, MO","29073","2024 (provisional)","2024",Suppressed,14705,Suppressed
+,"Gasconade County, MO","29073","2025 (provisional and partial)","2025",0,14705,Unreliable
+,"Gentry County, MO","29075","2018","2018",0,6628,Unreliable
+,"Gentry County, MO","29075","2019","2019",Suppressed,6571,Suppressed
+,"Gentry County, MO","29075","2020","2020",Suppressed,6484,Suppressed
+,"Gentry County, MO","29075","2021","2021",Suppressed,6173,Suppressed
+,"Gentry County, MO","29075","2022","2022",0,6253,Unreliable
+,"Gentry County, MO","29075","2023","2023",0,6287,Unreliable
+,"Gentry County, MO","29075","2024 (provisional)","2024",0,6287,Unreliable
+,"Gentry County, MO","29075","2025 (provisional and partial)","2025",0,6287,Unreliable
+,"Greene County, MO","29077","2018","2018",48,291923,16.4
+,"Greene County, MO","29077","2019","2019",53,293086,18.1
+,"Greene County, MO","29077","2020","2020",62,294997,21.0
+,"Greene County, MO","29077","2021","2021",103,300865,34.2
+,"Greene County, MO","29077","2022","2022",86,303293,28.4
+,"Greene County, MO","29077","2023","2023",87,304611,28.6
+,"Greene County, MO","29077","2024 (provisional)","2024",40,304611,13.1
+,"Greene County, MO","29077","2025 (provisional and partial)","2025",Suppressed,304611,Suppressed
+,"Grundy County, MO","29079","2018","2018",Suppressed,9914,Suppressed
+,"Grundy County, MO","29079","2019","2019",0,9850,Unreliable
+,"Grundy County, MO","29079","2020","2020",Suppressed,9595,Suppressed
+,"Grundy County, MO","29079","2021","2021",Suppressed,9720,Suppressed
+,"Grundy County, MO","29079","2022","2022",0,9838,Unreliable
+,"Grundy County, MO","29079","2023","2023",Suppressed,9815,Suppressed
+,"Grundy County, MO","29079","2024 (provisional)","2024",Suppressed,9815,Suppressed
+,"Grundy County, MO","29079","2025 (provisional and partial)","2025",0,9815,Unreliable
+,"Harrison County, MO","29081","2018","2018",0,8414,Unreliable
+,"Harrison County, MO","29081","2019","2019",0,8352,Unreliable
+,"Harrison County, MO","29081","2020","2020",0,8321,Unreliable
+,"Harrison County, MO","29081","2021","2021",Suppressed,8164,Suppressed
+,"Harrison County, MO","29081","2022","2022",0,8199,Unreliable
+,"Harrison County, MO","29081","2023","2023",Suppressed,8220,Suppressed
+,"Harrison County, MO","29081","2024 (provisional)","2024",0,8220,Unreliable
+,"Harrison County, MO","29081","2025 (provisional and partial)","2025",0,8220,Unreliable
+,"Henry County, MO","29083","2018","2018",Suppressed,21792,Suppressed
+,"Henry County, MO","29083","2019","2019",Suppressed,21824,Suppressed
+,"Henry County, MO","29083","2020","2020",Suppressed,22076,Suppressed
+,"Henry County, MO","29083","2021","2021",Suppressed,22206,Suppressed
+,"Henry County, MO","29083","2022","2022",Suppressed,22438,Suppressed
+,"Henry County, MO","29083","2023","2023",Suppressed,22485,Suppressed
+,"Henry County, MO","29083","2024 (provisional)","2024",Suppressed,22485,Suppressed
+,"Henry County, MO","29083","2025 (provisional and partial)","2025",Suppressed,22485,Suppressed
+,"Hickory County, MO","29085","2018","2018",Suppressed,9509,Suppressed
+,"Hickory County, MO","29085","2019","2019",0,9544,Unreliable
+,"Hickory County, MO","29085","2020","2020",0,9586,Unreliable
+,"Hickory County, MO","29085","2021","2021",Suppressed,8607,Suppressed
+,"Hickory County, MO","29085","2022","2022",Suppressed,8630,Suppressed
+,"Hickory County, MO","29085","2023","2023",0,8718,Unreliable
+,"Hickory County, MO","29085","2024 (provisional)","2024",0,8718,Unreliable
+,"Hickory County, MO","29085","2025 (provisional and partial)","2025",0,8718,Unreliable
+,"Holt County, MO","29087","2018","2018",0,4404,Unreliable
+,"Holt County, MO","29087","2019","2019",0,4403,Unreliable
+,"Holt County, MO","29087","2020","2020",0,4232,Unreliable
+,"Holt County, MO","29087","2021","2021",0,4226,Unreliable
+,"Holt County, MO","29087","2022","2022",0,4262,Unreliable
+,"Holt County, MO","29087","2023","2023",0,4248,Unreliable
+,"Holt County, MO","29087","2024 (provisional)","2024",Suppressed,4248,Suppressed
+,"Holt County, MO","29087","2025 (provisional and partial)","2025",0,4248,Unreliable
+,"Howard County, MO","29089","2018","2018",Suppressed,10137,Suppressed
+,"Howard County, MO","29089","2019","2019",Suppressed,10001,Suppressed
+,"Howard County, MO","29089","2020","2020",0,10001,Unreliable
+,"Howard County, MO","29089","2021","2021",Suppressed,10168,Suppressed
+,"Howard County, MO","29089","2022","2022",Suppressed,10168,Suppressed
+,"Howard County, MO","29089","2023","2023",Suppressed,10101,Suppressed
+,"Howard County, MO","29089","2024 (provisional)","2024",0,10101,Unreliable
+,"Howard County, MO","29089","2025 (provisional and partial)","2025",0,10101,Unreliable
+,"Howell County, MO","29091","2018","2018",Suppressed,40076,Suppressed
+,"Howell County, MO","29091","2019","2019",Suppressed,40117,Suppressed
+,"Howell County, MO","29091","2020","2020",Suppressed,40262,Suppressed
+,"Howell County, MO","29091","2021","2021",Suppressed,39975,Suppressed
+,"Howell County, MO","29091","2022","2022",Suppressed,40631,Suppressed
+,"Howell County, MO","29091","2023","2023",10,40735,Unreliable
+,"Howell County, MO","29091","2024 (provisional)","2024",Suppressed,40735,Suppressed
+,"Howell County, MO","29091","2025 (provisional and partial)","2025",0,40735,Unreliable
+,"Iron County, MO","29093","2018","2018",0,10177,Unreliable
+,"Iron County, MO","29093","2019","2019",0,10125,Unreliable
+,"Iron County, MO","29093","2020","2020",Suppressed,10098,Suppressed
+,"Iron County, MO","29093","2021","2021",Suppressed,9408,Suppressed
+,"Iron County, MO","29093","2022","2022",Suppressed,9414,Suppressed
+,"Iron County, MO","29093","2023","2023",Suppressed,9440,Suppressed
+,"Iron County, MO","29093","2024 (provisional)","2024",Suppressed,9440,Suppressed
+,"Iron County, MO","29093","2025 (provisional and partial)","2025",0,9440,Unreliable
+,"Jackson County, MO","29095","2018","2018",66,700307,9.4
+,"Jackson County, MO","29095","2019","2019",61,703011,8.7
+,"Jackson County, MO","29095","2020","2020",84,705925,11.9
+,"Jackson County, MO","29095","2021","2021",125,716862,17.4
+,"Jackson County, MO","29095","2022","2022",185,716531,25.8
+,"Jackson County, MO","29095","2023","2023",170,718560,23.7
+,"Jackson County, MO","29095","2024 (provisional)","2024",162,718560,22.5
+,"Jackson County, MO","29095","2025 (provisional and partial)","2025",32,718560,4.5
+,"Jasper County, MO","29097","2018","2018",Suppressed,120636,Suppressed
+,"Jasper County, MO","29097","2019","2019",Suppressed,121328,Suppressed
+,"Jasper County, MO","29097","2020","2020",Suppressed,121648,Suppressed
+,"Jasper County, MO","29097","2021","2021",Suppressed,123155,Suppressed
+,"Jasper County, MO","29097","2022","2022",17,124075,Unreliable
+,"Jasper County, MO","29097","2023","2023",11,125056,Unreliable
+,"Jasper County, MO","29097","2024 (provisional)","2024",20,125056,16.0
+,"Jasper County, MO","29097","2025 (provisional and partial)","2025",Suppressed,125056,Suppressed
+,"Jefferson County, MO","29099","2018","2018",102,224347,45.5
+,"Jefferson County, MO","29099","2019","2019",85,225081,37.8
+,"Jefferson County, MO","29099","2020","2020",89,226543,39.3
+,"Jefferson County, MO","29099","2021","2021",106,227771,46.5
+,"Jefferson County, MO","29099","2022","2022",88,229336,38.4
+,"Jefferson County, MO","29099","2023","2023",58,231230,25.1
+,"Jefferson County, MO","29099","2024 (provisional)","2024",40,231230,17.3
+,"Jefferson County, MO","29099","2025 (provisional and partial)","2025",12,231230,Unreliable
+,"Johnson County, MO","29101","2018","2018",Suppressed,53652,Suppressed
+,"Johnson County, MO","29101","2019","2019",Suppressed,54062,Suppressed
+,"Johnson County, MO","29101","2020","2020",Suppressed,54219,Suppressed
+,"Johnson County, MO","29101","2021","2021",Suppressed,54150,Suppressed
+,"Johnson County, MO","29101","2022","2022",Suppressed,54368,Suppressed
+,"Johnson County, MO","29101","2023","2023",Suppressed,54962,Suppressed
+,"Johnson County, MO","29101","2024 (provisional)","2024",Suppressed,54962,Suppressed
+,"Johnson County, MO","29101","2025 (provisional and partial)","2025",Suppressed,54962,Suppressed
+,"Knox County, MO","29103","2018","2018",0,3947,Unreliable
+,"Knox County, MO","29103","2019","2019",Suppressed,3959,Suppressed
+,"Knox County, MO","29103","2020","2020",0,3940,Unreliable
+,"Knox County, MO","29103","2021","2021",Suppressed,3808,Suppressed
+,"Knox County, MO","29103","2022","2022",0,3776,Unreliable
+,"Knox County, MO","29103","2023","2023",0,3723,Unreliable
+,"Knox County, MO","29103","2024 (provisional)","2024",0,3723,Unreliable
+,"Knox County, MO","29103","2025 (provisional and partial)","2025",0,3723,Unreliable
+,"Laclede County, MO","29105","2018","2018",Suppressed,35713,Suppressed
+,"Laclede County, MO","29105","2019","2019",Suppressed,35723,Suppressed
+,"Laclede County, MO","29105","2020","2020",Suppressed,35895,Suppressed
+,"Laclede County, MO","29105","2021","2021",Suppressed,36133,Suppressed
+,"Laclede County, MO","29105","2022","2022",Suppressed,36313,Suppressed
+,"Laclede County, MO","29105","2023","2023",10,36680,Unreliable
+,"Laclede County, MO","29105","2024 (provisional)","2024",Suppressed,36680,Suppressed
+,"Laclede County, MO","29105","2025 (provisional and partial)","2025",0,36680,Unreliable
+,"Lafayette County, MO","29107","2018","2018",Suppressed,32598,Suppressed
+,"Lafayette County, MO","29107","2019","2019",Suppressed,32708,Suppressed
+,"Lafayette County, MO","29107","2020","2020",Suppressed,33006,Suppressed
+,"Lafayette County, MO","29107","2021","2021",Suppressed,32817,Suppressed
+,"Lafayette County, MO","29107","2022","2022",Suppressed,32961,Suppressed
+,"Lafayette County, MO","29107","2023","2023",Suppressed,33196,Suppressed
+,"Lafayette County, MO","29107","2024 (provisional)","2024",Suppressed,33196,Suppressed
+,"Lafayette County, MO","29107","2025 (provisional and partial)","2025",0,33196,Unreliable
+,"Lawrence County, MO","29109","2018","2018",Suppressed,38359,Suppressed
+,"Lawrence County, MO","29109","2019","2019",Suppressed,38355,Suppressed
+,"Lawrence County, MO","29109","2020","2020",Suppressed,38175,Suppressed
+,"Lawrence County, MO","29109","2021","2021",Suppressed,38321,Suppressed
+,"Lawrence County, MO","29109","2022","2022",Suppressed,38683,Suppressed
+,"Lawrence County, MO","29109","2023","2023",Suppressed,38872,Suppressed
+,"Lawrence County, MO","29109","2024 (provisional)","2024",Suppressed,38872,Suppressed
+,"Lawrence County, MO","29109","2025 (provisional and partial)","2025",0,38872,Unreliable
+,"Lewis County, MO","29111","2018","2018",Suppressed,9855,Suppressed
+,"Lewis County, MO","29111","2019","2019",0,9776,Unreliable
+,"Lewis County, MO","29111","2020","2020",0,9810,Unreliable
+,"Lewis County, MO","29111","2021","2021",Suppressed,10000,Suppressed
+,"Lewis County, MO","29111","2022","2022",Suppressed,9891,Suppressed
+,"Lewis County, MO","29111","2023","2023",0,9818,Unreliable
+,"Lewis County, MO","29111","2024 (provisional)","2024",0,9818,Unreliable
+,"Lewis County, MO","29111","2025 (provisional and partial)","2025",0,9818,Unreliable
+,"Lincoln County, MO","29113","2018","2018",16,57686,Unreliable
+,"Lincoln County, MO","29113","2019","2019",16,59013,Unreliable
+,"Lincoln County, MO","29113","2020","2020",18,60119,Unreliable
+,"Lincoln County, MO","29113","2021","2021",14,61586,Unreliable
+,"Lincoln County, MO","29113","2022","2022",24,63155,38.0
+,"Lincoln County, MO","29113","2023","2023",14,64699,Unreliable
+,"Lincoln County, MO","29113","2024 (provisional)","2024",10,64699,Unreliable
+,"Lincoln County, MO","29113","2025 (provisional and partial)","2025",Suppressed,64699,Suppressed
+,"Linn County, MO","29115","2018","2018",0,12037,Unreliable
+,"Linn County, MO","29115","2019","2019",0,11920,Unreliable
+,"Linn County, MO","29115","2020","2020",Suppressed,11830,Suppressed
+,"Linn County, MO","29115","2021","2021",Suppressed,11843,Suppressed
+,"Linn County, MO","29115","2022","2022",Suppressed,11820,Suppressed
+,"Linn County, MO","29115","2023","2023",Suppressed,11791,Suppressed
+,"Linn County, MO","29115","2024 (provisional)","2024",0,11791,Unreliable
+,"Linn County, MO","29115","2025 (provisional and partial)","2025",0,11791,Unreliable
+,"Livingston County, MO","29117","2018","2018",Suppressed,15146,Suppressed
+,"Livingston County, MO","29117","2019","2019",Suppressed,15227,Suppressed
+,"Livingston County, MO","29117","2020","2020",Suppressed,14413,Suppressed
+,"Livingston County, MO","29117","2021","2021",Suppressed,14755,Suppressed
+,"Livingston County, MO","29117","2022","2022",Suppressed,14402,Suppressed
+,"Livingston County, MO","29117","2023","2023",Suppressed,14557,Suppressed
+,"Livingston County, MO","29117","2024 (provisional)","2024",Suppressed,14557,Suppressed
+,"Livingston County, MO","29117","2025 (provisional and partial)","2025",0,14557,Unreliable
+,"McDonald County, MO","29119","2018","2018",0,23078,Unreliable
+,"McDonald County, MO","29119","2019","2019",Suppressed,22837,Suppressed
+,"McDonald County, MO","29119","2020","2020",Suppressed,22900,Suppressed
+,"McDonald County, MO","29119","2021","2021",0,23383,Unreliable
+,"McDonald County, MO","29119","2022","2022",0,23588,Unreliable
+,"McDonald County, MO","29119","2023","2023",0,23903,Unreliable
+,"McDonald County, MO","29119","2024 (provisional)","2024",Suppressed,23903,Suppressed
+,"McDonald County, MO","29119","2025 (provisional and partial)","2025",0,23903,Unreliable
+,"Macon County, MO","29121","2018","2018",0,15153,Unreliable
+,"Macon County, MO","29121","2019","2019",0,15117,Unreliable
+,"Macon County, MO","29121","2020","2020",0,15095,Unreliable
+,"Macon County, MO","29121","2021","2021",0,15183,Unreliable
+,"Macon County, MO","29121","2022","2022",0,15049,Unreliable
+,"Macon County, MO","29121","2023","2023",0,15161,Unreliable
+,"Macon County, MO","29121","2024 (provisional)","2024",0,15161,Unreliable
+,"Macon County, MO","29121","2025 (provisional and partial)","2025",0,15161,Unreliable
+,"Madison County, MO","29123","2018","2018",Suppressed,12188,Suppressed
+,"Madison County, MO","29123","2019","2019",Suppressed,12088,Suppressed
+,"Madison County, MO","29123","2020","2020",Suppressed,12113,Suppressed
+,"Madison County, MO","29123","2021","2021",Suppressed,12652,Suppressed
+,"Madison County, MO","29123","2022","2022",Suppressed,12753,Suppressed
+,"Madison County, MO","29123","2023","2023",Suppressed,12698,Suppressed
+,"Madison County, MO","29123","2024 (provisional)","2024",Suppressed,12698,Suppressed
+,"Madison County, MO","29123","2025 (provisional and partial)","2025",0,12698,Unreliable
+,"Maries County, MO","29125","2018","2018",Suppressed,8769,Suppressed
+,"Maries County, MO","29125","2019","2019",0,8697,Unreliable
+,"Maries County, MO","29125","2020","2020",Suppressed,8795,Suppressed
+,"Maries County, MO","29125","2021","2021",0,8406,Unreliable
+,"Maries County, MO","29125","2022","2022",Suppressed,8431,Suppressed
+,"Maries County, MO","29125","2023","2023",Suppressed,8430,Suppressed
+,"Maries County, MO","29125","2024 (provisional)","2024",Suppressed,8430,Suppressed
+,"Maries County, MO","29125","2025 (provisional and partial)","2025",0,8430,Unreliable
+,"Marion County, MO","29127","2018","2018",Suppressed,28592,Suppressed
+,"Marion County, MO","29127","2019","2019",Suppressed,28530,Suppressed
+,"Marion County, MO","29127","2020","2020",Suppressed,28423,Suppressed
+,"Marion County, MO","29127","2021","2021",Suppressed,28518,Suppressed
+,"Marion County, MO","29127","2022","2022",Suppressed,28438,Suppressed
+,"Marion County, MO","29127","2023","2023",Suppressed,28336,Suppressed
+,"Marion County, MO","29127","2024 (provisional)","2024",Suppressed,28336,Suppressed
+,"Marion County, MO","29127","2025 (provisional and partial)","2025",0,28336,Unreliable
+,"Mercer County, MO","29129","2018","2018",0,3641,Unreliable
+,"Mercer County, MO","29129","2019","2019",0,3617,Unreliable
+,"Mercer County, MO","29129","2020","2020",0,3558,Unreliable
+,"Mercer County, MO","29129","2021","2021",0,3488,Unreliable
+,"Mercer County, MO","29129","2022","2022",0,3437,Unreliable
+,"Mercer County, MO","29129","2023","2023",0,3469,Unreliable
+,"Mercer County, MO","29129","2024 (provisional)","2024",0,3469,Unreliable
+,"Mercer County, MO","29129","2025 (provisional and partial)","2025",0,3469,Unreliable
+,"Miller County, MO","29131","2018","2018",Suppressed,25336,Suppressed
+,"Miller County, MO","29131","2019","2019",Suppressed,25619,Suppressed
+,"Miller County, MO","29131","2020","2020",Suppressed,25791,Suppressed
+,"Miller County, MO","29131","2021","2021",Suppressed,24909,Suppressed
+,"Miller County, MO","29131","2022","2022",Suppressed,25403,Suppressed
+,"Miller County, MO","29131","2023","2023",Suppressed,25590,Suppressed
+,"Miller County, MO","29131","2024 (provisional)","2024",Suppressed,25590,Suppressed
+,"Miller County, MO","29131","2025 (provisional and partial)","2025",0,25590,Unreliable
+,"Mississippi County, MO","29133","2018","2018",Suppressed,13336,Suppressed
+,"Mississippi County, MO","29133","2019","2019",Suppressed,13180,Suppressed
+,"Mississippi County, MO","29133","2020","2020",0,12691,Unreliable
+,"Mississippi County, MO","29133","2021","2021",0,12538,Unreliable
+,"Mississippi County, MO","29133","2022","2022",0,11688,Unreliable
+,"Mississippi County, MO","29133","2023","2023",0,11822,Unreliable
+,"Mississippi County, MO","29133","2024 (provisional)","2024",0,11822,Unreliable
+,"Mississippi County, MO","29133","2025 (provisional and partial)","2025",0,11822,Unreliable
+,"Moniteau County, MO","29135","2018","2018",Suppressed,16121,Suppressed
+,"Moniteau County, MO","29135","2019","2019",0,16132,Unreliable
+,"Moniteau County, MO","29135","2020","2020",Suppressed,15585,Suppressed
+,"Moniteau County, MO","29135","2021","2021",0,15484,Unreliable
+,"Moniteau County, MO","29135","2022","2022",0,15220,Unreliable
+,"Moniteau County, MO","29135","2023","2023",Suppressed,15256,Suppressed
+,"Moniteau County, MO","29135","2024 (provisional)","2024",0,15256,Unreliable
+,"Moniteau County, MO","29135","2025 (provisional and partial)","2025",0,15256,Unreliable
+,"Monroe County, MO","29137","2018","2018",0,8664,Unreliable
+,"Monroe County, MO","29137","2019","2019",Suppressed,8644,Suppressed
+,"Monroe County, MO","29137","2020","2020",Suppressed,8672,Suppressed
+,"Monroe County, MO","29137","2021","2021",Suppressed,8712,Suppressed
+,"Monroe County, MO","29137","2022","2022",Suppressed,8652,Suppressed
+,"Monroe County, MO","29137","2023","2023",Suppressed,8698,Suppressed
+,"Monroe County, MO","29137","2024 (provisional)","2024",0,8698,Unreliable
+,"Monroe County, MO","29137","2025 (provisional and partial)","2025",0,8698,Unreliable
+,"Montgomery County, MO","29139","2018","2018",0,11534,Unreliable
+,"Montgomery County, MO","29139","2019","2019",Suppressed,11551,Suppressed
+,"Montgomery County, MO","29139","2020","2020",Suppressed,11294,Suppressed
+,"Montgomery County, MO","29139","2021","2021",0,11415,Unreliable
+,"Montgomery County, MO","29139","2022","2022",Suppressed,11470,Suppressed
+,"Montgomery County, MO","29139","2023","2023",0,11459,Unreliable
+,"Montgomery County, MO","29139","2024 (provisional)","2024",Suppressed,11459,Suppressed
+,"Montgomery County, MO","29139","2025 (provisional and partial)","2025",0,11459,Unreliable
+,"Morgan County, MO","29141","2018","2018",Suppressed,20358,Suppressed
+,"Morgan County, MO","29141","2019","2019",0,20627,Unreliable
+,"Morgan County, MO","29141","2020","2020",Suppressed,20716,Suppressed
+,"Morgan County, MO","29141","2021","2021",Suppressed,21379,Suppressed
+,"Morgan County, MO","29141","2022","2022",Suppressed,21785,Suppressed
+,"Morgan County, MO","29141","2023","2023",Suppressed,21970,Suppressed
+,"Morgan County, MO","29141","2024 (provisional)","2024",Suppressed,21970,Suppressed
+,"Morgan County, MO","29141","2025 (provisional and partial)","2025",0,21970,Unreliable
+,"New Madrid County, MO","29143","2018","2018",Suppressed,17296,Suppressed
+,"New Madrid County, MO","29143","2019","2019",0,17076,Unreliable
+,"New Madrid County, MO","29143","2020","2020",Suppressed,16693,Suppressed
+,"New Madrid County, MO","29143","2021","2021",0,16035,Unreliable
+,"New Madrid County, MO","29143","2022","2022",Suppressed,15695,Suppressed
+,"New Madrid County, MO","29143","2023","2023",Suppressed,15424,Suppressed
+,"New Madrid County, MO","29143","2024 (provisional)","2024",Suppressed,15424,Suppressed
+,"New Madrid County, MO","29143","2025 (provisional and partial)","2025",0,15424,Unreliable
+,"Newton County, MO","29145","2018","2018",Suppressed,58266,Suppressed
+,"Newton County, MO","29145","2019","2019",Suppressed,58236,Suppressed
+,"Newton County, MO","29145","2020","2020",Suppressed,58451,Suppressed
+,"Newton County, MO","29145","2021","2021",Suppressed,59386,Suppressed
+,"Newton County, MO","29145","2022","2022",Suppressed,60011,Suppressed
+,"Newton County, MO","29145","2023","2023",Suppressed,60677,Suppressed
+,"Newton County, MO","29145","2024 (provisional)","2024",Suppressed,60677,Suppressed
+,"Newton County, MO","29145","2025 (provisional and partial)","2025",0,60677,Unreliable
+,"Nodaway County, MO","29147","2018","2018",0,22304,Unreliable
+,"Nodaway County, MO","29147","2019","2019",0,22092,Unreliable
+,"Nodaway County, MO","29147","2020","2020",0,21743,Unreliable
+,"Nodaway County, MO","29147","2021","2021",Suppressed,21160,Suppressed
+,"Nodaway County, MO","29147","2022","2022",0,20670,Unreliable
+,"Nodaway County, MO","29147","2023","2023",Suppressed,20695,Suppressed
+,"Nodaway County, MO","29147","2024 (provisional)","2024",Suppressed,20695,Suppressed
+,"Nodaway County, MO","29147","2025 (provisional and partial)","2025",0,20695,Unreliable
+,"Oregon County, MO","29149","2018","2018",0,10541,Unreliable
+,"Oregon County, MO","29149","2019","2019",0,10529,Unreliable
+,"Oregon County, MO","29149","2020","2020",0,10411,Unreliable
+,"Oregon County, MO","29149","2021","2021",0,8631,Unreliable
+,"Oregon County, MO","29149","2022","2022",Suppressed,8732,Suppressed
+,"Oregon County, MO","29149","2023","2023",Suppressed,8720,Suppressed
+,"Oregon County, MO","29149","2024 (provisional)","2024",0,8720,Unreliable
+,"Oregon County, MO","29149","2025 (provisional and partial)","2025",0,8720,Unreliable
+,"Osage County, MO","29151","2018","2018",0,13714,Unreliable
+,"Osage County, MO","29151","2019","2019",0,13615,Unreliable
+,"Osage County, MO","29151","2020","2020",Suppressed,13535,Suppressed
+,"Osage County, MO","29151","2021","2021",0,13379,Unreliable
+,"Osage County, MO","29151","2022","2022",Suppressed,13399,Suppressed
+,"Osage County, MO","29151","2023","2023",Suppressed,13468,Suppressed
+,"Osage County, MO","29151","2024 (provisional)","2024",0,13468,Unreliable
+,"Osage County, MO","29151","2025 (provisional and partial)","2025",0,13468,Unreliable
+,"Ozark County, MO","29153","2018","2018",Suppressed,9017,Suppressed
+,"Ozark County, MO","29153","2019","2019",0,9174,Unreliable
+,"Ozark County, MO","29153","2020","2020",Suppressed,9083,Suppressed
+,"Ozark County, MO","29153","2021","2021",0,8782,Unreliable
+,"Ozark County, MO","29153","2022","2022",Suppressed,8940,Suppressed
+,"Ozark County, MO","29153","2023","2023",0,8970,Unreliable
+,"Ozark County, MO","29153","2024 (provisional)","2024",Suppressed,8970,Suppressed
+,"Ozark County, MO","29153","2025 (provisional and partial)","2025",0,8970,Unreliable
+,"Pemiscot County, MO","29155","2018","2018",0,16272,Unreliable
+,"Pemiscot County, MO","29155","2019","2019",Suppressed,15805,Suppressed
+,"Pemiscot County, MO","29155","2020","2020",Suppressed,15600,Suppressed
+,"Pemiscot County, MO","29155","2021","2021",Suppressed,15236,Suppressed
+,"Pemiscot County, MO","29155","2022","2022",Suppressed,14841,Suppressed
+,"Pemiscot County, MO","29155","2023","2023",Suppressed,14613,Suppressed
+,"Pemiscot County, MO","29155","2024 (provisional)","2024",Suppressed,14613,Suppressed
+,"Pemiscot County, MO","29155","2025 (provisional and partial)","2025",0,14613,Unreliable
+,"Perry County, MO","29157","2018","2018",Suppressed,19150,Suppressed
+,"Perry County, MO","29157","2019","2019",0,19136,Unreliable
+,"Perry County, MO","29157","2020","2020",Suppressed,19194,Suppressed
+,"Perry County, MO","29157","2021","2021",Suppressed,18922,Suppressed
+,"Perry County, MO","29157","2022","2022",0,18858,Unreliable
+,"Perry County, MO","29157","2023","2023",Suppressed,18950,Suppressed
+,"Perry County, MO","29157","2024 (provisional)","2024",Suppressed,18950,Suppressed
+,"Perry County, MO","29157","2025 (provisional and partial)","2025",0,18950,Unreliable
+,"Pettis County, MO","29159","2018","2018",Suppressed,42542,Suppressed
+,"Pettis County, MO","29159","2019","2019",Suppressed,42339,Suppressed
+,"Pettis County, MO","29159","2020","2020",Suppressed,42490,Suppressed
+,"Pettis County, MO","29159","2021","2021",Suppressed,43188,Suppressed
+,"Pettis County, MO","29159","2022","2022",Suppressed,43353,Suppressed
+,"Pettis County, MO","29159","2023","2023",Suppressed,43530,Suppressed
+,"Pettis County, MO","29159","2024 (provisional)","2024",Suppressed,43530,Suppressed
+,"Pettis County, MO","29159","2025 (provisional and partial)","2025",0,43530,Unreliable
+,"Phelps County, MO","29161","2018","2018",Suppressed,44732,Suppressed
+,"Phelps County, MO","29161","2019","2019",16,44573,Unreliable
+,"Phelps County, MO","29161","2020","2020",19,44414,Unreliable
+,"Phelps County, MO","29161","2021","2021",23,44937,51.2
+,"Phelps County, MO","29161","2022","2022",18,45313,Unreliable
+,"Phelps County, MO","29161","2023","2023",24,45284,53.0
+,"Phelps County, MO","29161","2024 (provisional)","2024",Suppressed,45284,Suppressed
+,"Phelps County, MO","29161","2025 (provisional and partial)","2025",Suppressed,45284,Suppressed
+,"Pike County, MO","29163","2018","2018",Suppressed,18504,Suppressed
+,"Pike County, MO","29163","2019","2019",Suppressed,18302,Suppressed
+,"Pike County, MO","29163","2020","2020",Suppressed,17552,Suppressed
+,"Pike County, MO","29163","2021","2021",Suppressed,17761,Suppressed
+,"Pike County, MO","29163","2022","2022",Suppressed,17664,Suppressed
+,"Pike County, MO","29163","2023","2023",Suppressed,17935,Suppressed
+,"Pike County, MO","29163","2024 (provisional)","2024",Suppressed,17935,Suppressed
+,"Pike County, MO","29163","2025 (provisional and partial)","2025",0,17935,Unreliable
+,"Platte County, MO","29165","2018","2018",Suppressed,102985,Suppressed
+,"Platte County, MO","29165","2019","2019",Suppressed,104418,Suppressed
+,"Platte County, MO","29165","2020","2020",15,106532,Unreliable
+,"Platte County, MO","29165","2021","2021",15,108569,Unreliable
+,"Platte County, MO","29165","2022","2022",17,110534,Unreliable
+,"Platte County, MO","29165","2023","2023",21,111940,18.8
+,"Platte County, MO","29165","2024 (provisional)","2024",11,111940,Unreliable
+,"Platte County, MO","29165","2025 (provisional and partial)","2025",0,111940,Unreliable
+,"Polk County, MO","29167","2018","2018",0,32201,Unreliable
+,"Polk County, MO","29167","2019","2019",0,32149,Unreliable
+,"Polk County, MO","29167","2020","2020",Suppressed,32490,Suppressed
+,"Polk County, MO","29167","2021","2021",Suppressed,32043,Suppressed
+,"Polk County, MO","29167","2022","2022",Suppressed,32693,Suppressed
+,"Polk County, MO","29167","2023","2023",Suppressed,32780,Suppressed
+,"Polk County, MO","29167","2024 (provisional)","2024",Suppressed,32780,Suppressed
+,"Polk County, MO","29167","2025 (provisional and partial)","2025",0,32780,Unreliable
+,"Pulaski County, MO","29169","2018","2018",10,52014,Unreliable
+,"Pulaski County, MO","29169","2019","2019",21,52607,39.9
+,"Pulaski County, MO","29169","2020","2020",25,52709,47.4
+,"Pulaski County, MO","29169","2021","2021",19,53816,Unreliable
+,"Pulaski County, MO","29169","2022","2022",28,53941,51.9
+,"Pulaski County, MO","29169","2023","2023",16,53812,Unreliable
+,"Pulaski County, MO","29169","2024 (provisional)","2024",11,53812,Unreliable
+,"Pulaski County, MO","29169","2025 (provisional and partial)","2025",Suppressed,53812,Suppressed
+,"Putnam County, MO","29171","2018","2018",0,4757,Unreliable
+,"Putnam County, MO","29171","2019","2019",Suppressed,4696,Suppressed
+,"Putnam County, MO","29171","2020","2020",0,4688,Unreliable
+,"Putnam County, MO","29171","2021","2021",0,4712,Unreliable
+,"Putnam County, MO","29171","2022","2022",Suppressed,4666,Suppressed
+,"Putnam County, MO","29171","2023","2023",0,4638,Unreliable
+,"Putnam County, MO","29171","2024 (provisional)","2024",0,4638,Unreliable
+,"Putnam County, MO","29171","2025 (provisional and partial)","2025",Suppressed,4638,Suppressed
+,"Ralls County, MO","29173","2018","2018",Suppressed,10212,Suppressed
+,"Ralls County, MO","29173","2019","2019",0,10309,Unreliable
+,"Ralls County, MO","29173","2020","2020",Suppressed,10299,Suppressed
+,"Ralls County, MO","29173","2021","2021",Suppressed,10361,Suppressed
+,"Ralls County, MO","29173","2022","2022",0,10420,Unreliable
+,"Ralls County, MO","29173","2023","2023",0,10489,Unreliable
+,"Ralls County, MO","29173","2024 (provisional)","2024",Suppressed,10489,Suppressed
+,"Ralls County, MO","29173","2025 (provisional and partial)","2025",0,10489,Unreliable
+,"Randolph County, MO","29175","2018","2018",0,24763,Unreliable
+,"Randolph County, MO","29175","2019","2019",Suppressed,24748,Suppressed
+,"Randolph County, MO","29175","2020","2020",Suppressed,24409,Suppressed
+,"Randolph County, MO","29175","2021","2021",Suppressed,24760,Suppressed
+,"Randolph County, MO","29175","2022","2022",Suppressed,24622,Suppressed
+,"Randolph County, MO","29175","2023","2023",Suppressed,24109,Suppressed
+,"Randolph County, MO","29175","2024 (provisional)","2024",0,24109,Unreliable
+,"Randolph County, MO","29175","2025 (provisional and partial)","2025",0,24109,Unreliable
+,"Ray County, MO","29177","2018","2018",0,22883,Unreliable
+,"Ray County, MO","29177","2019","2019",Suppressed,23018,Suppressed
+,"Ray County, MO","29177","2020","2020",Suppressed,22915,Suppressed
+,"Ray County, MO","29177","2021","2021",Suppressed,23008,Suppressed
+,"Ray County, MO","29177","2022","2022",Suppressed,23107,Suppressed
+,"Ray County, MO","29177","2023","2023",Suppressed,23182,Suppressed
+,"Ray County, MO","29177","2024 (provisional)","2024",0,23182,Unreliable
+,"Ray County, MO","29177","2025 (provisional and partial)","2025",0,23182,Unreliable
+,"Reynolds County, MO","29179","2018","2018",0,6254,Unreliable
+,"Reynolds County, MO","29179","2019","2019",0,6270,Unreliable
+,"Reynolds County, MO","29179","2020","2020",0,6198,Unreliable
+,"Reynolds County, MO","29179","2021","2021",0,6087,Unreliable
+,"Reynolds County, MO","29179","2022","2022",0,6006,Unreliable
+,"Reynolds County, MO","29179","2023","2023",0,5950,Unreliable
+,"Reynolds County, MO","29179","2024 (provisional)","2024",Suppressed,5950,Suppressed
+,"Reynolds County, MO","29179","2025 (provisional and partial)","2025",0,5950,Unreliable
+,"Ripley County, MO","29181","2018","2018",0,13401,Unreliable
+,"Ripley County, MO","29181","2019","2019",0,13288,Unreliable
+,"Ripley County, MO","29181","2020","2020",0,13300,Unreliable
+,"Ripley County, MO","29181","2021","2021",0,10617,Unreliable
+,"Ripley County, MO","29181","2022","2022",0,10703,Unreliable
+,"Ripley County, MO","29181","2023","2023",0,10806,Unreliable
+,"Ripley County, MO","29181","2024 (provisional)","2024",0,10806,Unreliable
+,"Ripley County, MO","29181","2025 (provisional and partial)","2025",0,10806,Unreliable
+,"St. Charles County, MO","29183","2018","2018",105,399182,26.3
+,"St. Charles County, MO","29183","2019","2019",89,402022,22.1
+,"St. Charles County, MO","29183","2020","2020",98,406204,24.1
+,"St. Charles County, MO","29183","2021","2021",106,409981,25.9
+,"St. Charles County, MO","29183","2022","2022",81,413803,19.6
+,"St. Charles County, MO","29183","2023","2023",95,416659,22.8
+,"St. Charles County, MO","29183","2024 (provisional)","2024",40,416659,9.6
+,"St. Charles County, MO","29183","2025 (provisional and partial)","2025",10,416659,Unreliable
+,"St. Clair County, MO","29185","2018","2018",0,9395,Unreliable
+,"St. Clair County, MO","29185","2019","2019",0,9397,Unreliable
+,"St. Clair County, MO","29185","2020","2020",0,9689,Unreliable
+,"St. Clair County, MO","29185","2021","2021",Suppressed,9376,Suppressed
+,"St. Clair County, MO","29185","2022","2022",0,9576,Unreliable
+,"St. Clair County, MO","29185","2023","2023",Suppressed,9752,Suppressed
+,"St. Clair County, MO","29185","2024 (provisional)","2024",0,9752,Unreliable
+,"St. Clair County, MO","29185","2025 (provisional and partial)","2025",0,9752,Unreliable
+,"Ste. Genevieve County, MO","29186","2018","2018",Suppressed,17888,Suppressed
+,"Ste. Genevieve County, MO","29186","2019","2019",Suppressed,17894,Suppressed
+,"Ste. Genevieve County, MO","29186","2020","2020",Suppressed,17924,Suppressed
+,"Ste. Genevieve County, MO","29186","2021","2021",Suppressed,18588,Suppressed
+,"Ste. Genevieve County, MO","29186","2022","2022",10,18644,Unreliable
+,"Ste. Genevieve County, MO","29186","2023","2023",Suppressed,18642,Suppressed
+,"Ste. Genevieve County, MO","29186","2024 (provisional)","2024",Suppressed,18642,Suppressed
+,"Ste. Genevieve County, MO","29186","2025 (provisional and partial)","2025",Suppressed,18642,Suppressed
+,"St. Francois County, MO","29187","2018","2018",Suppressed,66692,Suppressed
+,"St. Francois County, MO","29187","2019","2019",11,67215,Unreliable
+,"St. Francois County, MO","29187","2020","2020",14,66485,Unreliable
+,"St. Francois County, MO","29187","2021","2021",31,67541,45.9
+,"St. Francois County, MO","29187","2022","2022",16,66969,Unreliable
+,"St. Francois County, MO","29187","2023","2023",16,67058,Unreliable
+,"St. Francois County, MO","29187","2024 (provisional)","2024",Suppressed,67058,Suppressed
+,"St. Francois County, MO","29187","2025 (provisional and partial)","2025",Suppressed,67058,Suppressed
+,"St. Louis County, MO","29189","2018","2018",319,996945,32.0
+,"St. Louis County, MO","29189","2019","2019",292,994205,29.4
+,"St. Louis County, MO","29189","2020","2020",360,994020,36.2
+,"St. Louis County, MO","29189","2021","2021",363,997187,36.4
+,"St. Louis County, MO","29189","2022","2022",333,990414,33.6
+,"St. Louis County, MO","29189","2023","2023",271,987059,27.5
+,"St. Louis County, MO","29189","2024 (provisional)","2024",167,987059,16.9
+,"St. Louis County, MO","29189","2025 (provisional and partial)","2025",29,987059,2.9
+,"Saline County, MO","29195","2018","2018",0,22895,Unreliable
+,"Saline County, MO","29195","2019","2019",0,22761,Unreliable
+,"Saline County, MO","29195","2020","2020",Suppressed,22858,Suppressed
+,"Saline County, MO","29195","2021","2021",Suppressed,23289,Suppressed
+,"Saline County, MO","29195","2022","2022",Suppressed,23007,Suppressed
+,"Saline County, MO","29195","2023","2023",Suppressed,23049,Suppressed
+,"Saline County, MO","29195","2024 (provisional)","2024",Suppressed,23049,Suppressed
+,"Saline County, MO","29195","2025 (provisional and partial)","2025",0,23049,Unreliable
+,"Schuyler County, MO","29197","2018","2018",0,4599,Unreliable
+,"Schuyler County, MO","29197","2019","2019",0,4660,Unreliable
+,"Schuyler County, MO","29197","2020","2020",0,4534,Unreliable
+,"Schuyler County, MO","29197","2021","2021",0,4025,Unreliable
+,"Schuyler County, MO","29197","2022","2022",0,4002,Unreliable
+,"Schuyler County, MO","29197","2023","2023",0,4053,Unreliable
+,"Schuyler County, MO","29197","2024 (provisional)","2024",Suppressed,4053,Suppressed
+,"Schuyler County, MO","29197","2025 (provisional and partial)","2025",0,4053,Unreliable
+,"Scotland County, MO","29199","2018","2018",0,4966,Unreliable
+,"Scotland County, MO","29199","2019","2019",0,4902,Unreliable
+,"Scotland County, MO","29199","2020","2020",0,4871,Unreliable
+,"Scotland County, MO","29199","2021","2021",0,4693,Unreliable
+,"Scotland County, MO","29199","2022","2022",0,4643,Unreliable
+,"Scotland County, MO","29199","2023","2023",0,4676,Unreliable
+,"Scotland County, MO","29199","2024 (provisional)","2024",0,4676,Unreliable
+,"Scotland County, MO","29199","2025 (provisional and partial)","2025",0,4676,Unreliable
+,"Scott County, MO","29201","2018","2018",Suppressed,38458,Suppressed
+,"Scott County, MO","29201","2019","2019",Suppressed,38280,Suppressed
+,"Scott County, MO","29201","2020","2020",Suppressed,38288,Suppressed
+,"Scott County, MO","29201","2021","2021",Suppressed,37840,Suppressed
+,"Scott County, MO","29201","2022","2022",Suppressed,37840,Suppressed
+,"Scott County, MO","29201","2023","2023",Suppressed,37889,Suppressed
+,"Scott County, MO","29201","2024 (provisional)","2024",Suppressed,37889,Suppressed
+,"Scott County, MO","29201","2025 (provisional and partial)","2025",0,37889,Unreliable
+,"Shannon County, MO","29203","2018","2018",0,8189,Unreliable
+,"Shannon County, MO","29203","2019","2019",0,8166,Unreliable
+,"Shannon County, MO","29203","2020","2020",0,8203,Unreliable
+,"Shannon County, MO","29203","2021","2021",Suppressed,7106,Suppressed
+,"Shannon County, MO","29203","2022","2022",0,7193,Unreliable
+,"Shannon County, MO","29203","2023","2023",Suppressed,7238,Suppressed
+,"Shannon County, MO","29203","2024 (provisional)","2024",0,7238,Unreliable
+,"Shannon County, MO","29203","2025 (provisional and partial)","2025",0,7238,Unreliable
+,"Shelby County, MO","29205","2018","2018",Suppressed,6050,Suppressed
+,"Shelby County, MO","29205","2019","2019",0,5930,Unreliable
+,"Shelby County, MO","29205","2020","2020",0,5919,Unreliable
+,"Shelby County, MO","29205","2021","2021",Suppressed,5976,Suppressed
+,"Shelby County, MO","29205","2022","2022",Suppressed,5982,Suppressed
+,"Shelby County, MO","29205","2023","2023",0,5931,Unreliable
+,"Shelby County, MO","29205","2024 (provisional)","2024",0,5931,Unreliable
+,"Shelby County, MO","29205","2025 (provisional and partial)","2025",0,5931,Unreliable
+,"Stoddard County, MO","29207","2018","2018",Suppressed,29206,Suppressed
+,"Stoddard County, MO","29207","2019","2019",0,29025,Unreliable
+,"Stoddard County, MO","29207","2020","2020",Suppressed,29001,Suppressed
+,"Stoddard County, MO","29207","2021","2021",Suppressed,28479,Suppressed
+,"Stoddard County, MO","29207","2022","2022",Suppressed,28377,Suppressed
+,"Stoddard County, MO","29207","2023","2023",Suppressed,28397,Suppressed
+,"Stoddard County, MO","29207","2024 (provisional)","2024",Suppressed,28397,Suppressed
+,"Stoddard County, MO","29207","2025 (provisional and partial)","2025",0,28397,Unreliable
+,"Stone County, MO","29209","2018","2018",Suppressed,31749,Suppressed
+,"Stone County, MO","29209","2019","2019",Suppressed,31952,Suppressed
+,"Stone County, MO","29209","2020","2020",Suppressed,32465,Suppressed
+,"Stone County, MO","29209","2021","2021",Suppressed,31548,Suppressed
+,"Stone County, MO","29209","2022","2022",Suppressed,32136,Suppressed
+,"Stone County, MO","29209","2023","2023",Suppressed,32658,Suppressed
+,"Stone County, MO","29209","2024 (provisional)","2024",Suppressed,32658,Suppressed
+,"Stone County, MO","29209","2025 (provisional and partial)","2025",Suppressed,32658,Suppressed
+,"Sullivan County, MO","29211","2018","2018",Suppressed,6221,Suppressed
+,"Sullivan County, MO","29211","2019","2019",0,6089,Unreliable
+,"Sullivan County, MO","29211","2020","2020",Suppressed,6033,Suppressed
+,"Sullivan County, MO","29211","2021","2021",Suppressed,5934,Suppressed
+,"Sullivan County, MO","29211","2022","2022",0,5840,Unreliable
+,"Sullivan County, MO","29211","2023","2023",Suppressed,5797,Suppressed
+,"Sullivan County, MO","29211","2024 (provisional)","2024",0,5797,Unreliable
+,"Sullivan County, MO","29211","2025 (provisional and partial)","2025",0,5797,Unreliable
+,"Taney County, MO","29213","2018","2018",Suppressed,55852,Suppressed
+,"Taney County, MO","29213","2019","2019",Suppressed,55928,Suppressed
+,"Taney County, MO","29213","2020","2020",Suppressed,56104,Suppressed
+,"Taney County, MO","29213","2021","2021",15,56387,Unreliable
+,"Taney County, MO","29213","2022","2022",Suppressed,56821,Suppressed
+,"Taney County, MO","29213","2023","2023",14,56775,Unreliable
+,"Taney County, MO","29213","2024 (provisional)","2024",Suppressed,56775,Suppressed
+,"Taney County, MO","29213","2025 (provisional and partial)","2025",0,56775,Unreliable
+,"Texas County, MO","29215","2018","2018",Suppressed,25571,Suppressed
+,"Texas County, MO","29215","2019","2019",Suppressed,25398,Suppressed
+,"Texas County, MO","29215","2020","2020",Suppressed,25112,Suppressed
+,"Texas County, MO","29215","2021","2021",10,24987,Unreliable
+,"Texas County, MO","29215","2022","2022",10,25336,Unreliable
+,"Texas County, MO","29215","2023","2023",Suppressed,25619,Suppressed
+,"Texas County, MO","29215","2024 (provisional)","2024",Suppressed,25619,Suppressed
+,"Texas County, MO","29215","2025 (provisional and partial)","2025",0,25619,Unreliable
+,"Vernon County, MO","29217","2018","2018",0,20528,Unreliable
+,"Vernon County, MO","29217","2019","2019",Suppressed,20563,Suppressed
+,"Vernon County, MO","29217","2020","2020",0,20388,Unreliable
+,"Vernon County, MO","29217","2021","2021",0,19595,Unreliable
+,"Vernon County, MO","29217","2022","2022",Suppressed,19651,Suppressed
+,"Vernon County, MO","29217","2023","2023",0,19710,Unreliable
+,"Vernon County, MO","29217","2024 (provisional)","2024",0,19710,Unreliable
+,"Vernon County, MO","29217","2025 (provisional and partial)","2025",0,19710,Unreliable
+,"Warren County, MO","29219","2018","2018",11,34711,Unreliable
+,"Warren County, MO","29219","2019","2019",Suppressed,35649,Suppressed
+,"Warren County, MO","29219","2020","2020",12,36594,Unreliable
+,"Warren County, MO","29219","2021","2021",16,36518,Unreliable
+,"Warren County, MO","29219","2022","2022",12,37260,Unreliable
+,"Warren County, MO","29219","2023","2023",12,37806,Unreliable
+,"Warren County, MO","29219","2024 (provisional)","2024",Suppressed,37806,Suppressed
+,"Warren County, MO","29219","2025 (provisional and partial)","2025",Suppressed,37806,Suppressed
+,"Washington County, MO","29221","2018","2018",Suppressed,24943,Suppressed
+,"Washington County, MO","29221","2019","2019",Suppressed,24730,Suppressed
+,"Washington County, MO","29221","2020","2020",Suppressed,24604,Suppressed
+,"Washington County, MO","29221","2021","2021",13,23502,Unreliable
+,"Washington County, MO","29221","2022","2022",Suppressed,23441,Suppressed
+,"Washington County, MO","29221","2023","2023",Suppressed,23534,Suppressed
+,"Washington County, MO","29221","2024 (provisional)","2024",Suppressed,23534,Suppressed
+,"Washington County, MO","29221","2025 (provisional and partial)","2025",Suppressed,23534,Suppressed
+,"Wayne County, MO","29223","2018","2018",Suppressed,13122,Suppressed
+,"Wayne County, MO","29223","2019","2019",0,12873,Unreliable
+,"Wayne County, MO","29223","2020","2020",Suppressed,12769,Suppressed
+,"Wayne County, MO","29223","2021","2021",Suppressed,10914,Suppressed
+,"Wayne County, MO","29223","2022","2022",Suppressed,10792,Suppressed
+,"Wayne County, MO","29223","2023","2023",0,10811,Unreliable
+,"Wayne County, MO","29223","2024 (provisional)","2024",0,10811,Unreliable
+,"Wayne County, MO","29223","2025 (provisional and partial)","2025",0,10811,Unreliable
+,"Webster County, MO","29225","2018","2018",Suppressed,39109,Suppressed
+,"Webster County, MO","29225","2019","2019",Suppressed,39592,Suppressed
+,"Webster County, MO","29225","2020","2020",Suppressed,39859,Suppressed
+,"Webster County, MO","29225","2021","2021",Suppressed,39735,Suppressed
+,"Webster County, MO","29225","2022","2022",Suppressed,40335,Suppressed
+,"Webster County, MO","29225","2023","2023",Suppressed,41472,Suppressed
+,"Webster County, MO","29225","2024 (provisional)","2024",Suppressed,41472,Suppressed
+,"Webster County, MO","29225","2025 (provisional and partial)","2025",Suppressed,41472,Suppressed
+,"Worth County, MO","29227","2018","2018",0,2040,Unreliable
+,"Worth County, MO","29227","2019","2019",0,2013,Unreliable
+,"Worth County, MO","29227","2020","2020",0,1953,Unreliable
+,"Worth County, MO","29227","2021","2021",0,1983,Unreliable
+,"Worth County, MO","29227","2022","2022",0,1955,Unreliable
+,"Worth County, MO","29227","2023","2023",0,1907,Unreliable
+,"Worth County, MO","29227","2024 (provisional)","2024",Suppressed,1907,Suppressed
+,"Worth County, MO","29227","2025 (provisional and partial)","2025",0,1907,Unreliable
+,"Wright County, MO","29229","2018","2018",0,18378,Unreliable
+,"Wright County, MO","29229","2019","2019",0,18289,Unreliable
+,"Wright County, MO","29229","2020","2020",Suppressed,18325,Suppressed
+,"Wright County, MO","29229","2021","2021",0,18610,Unreliable
+,"Wright County, MO","29229","2022","2022",Suppressed,19156,Suppressed
+,"Wright County, MO","29229","2023","2023",Suppressed,19403,Suppressed
+,"Wright County, MO","29229","2024 (provisional)","2024",0,19403,Unreliable
+,"Wright County, MO","29229","2025 (provisional and partial)","2025",0,19403,Unreliable
+,"St. Louis city, MO","29510","2018","2018",213,302838,70.3
+,"St. Louis city, MO","29510","2019","2019",221,300576,73.5
+,"St. Louis city, MO","29510","2020","2020",270,297645,90.7
+,"St. Louis city, MO","29510","2021","2021",265,293310,90.3
+,"St. Louis city, MO","29510","2022","2022",287,286578,100.1
+,"St. Louis city, MO","29510","2023","2023",284,281754,100.8
+,"St. Louis city, MO","29510","2024 (provisional)","2024",161,281754,57.1
+,"St. Louis city, MO","29510","2025 (provisional and partial)","2025",47,281754,16.7
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"MCD - ICD-10 Codes: T40.0 (Opium); T40.1 (Heroin); T40.2 (Other opioids); T40.3 (Methadone); T40.4 (Other synthetic narcotics);"
+"T40.6 (Other and unspecified narcotics)"
+"Residence States: Missouri (29)"
+"UCD - ICD-10 Codes: X40 (Accidental poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics); X41"
+"(Accidental poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not"
+"elsewhere classified); X42 (Accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not"
+"elsewhere classified); X43 (Accidental poisoning by and exposure to other drugs acting on the autonomic nervous system); X44"
+"(Accidental poisoning by and exposure to other and unspecified drugs, medicaments and biological substances); X60 (Intentional"
+"self-poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics); X61 (Intentional self-poisoning by and"
+"exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, not elsewhere classified); X62"
+"(Intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens], not elsewhere classified); X63"
+"(Intentional self-poisoning by and exposure to other drugs acting on the autonomic nervous system); X64 (Intentional"
+"self-poisoning by and exposure to other and unspecified drugs, medicaments and biological substances); X85 (Assault by drugs,"
+"medicaments and biological substances); Y10 (Poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumatics,"
+"undetermined intent); Y11 (Poisoning by and exposure to antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic"
+"drugs, not elsewhere classified, undetermined intent); Y12 (Poisoning by and exposure to narcotics and psychodysleptics"
+"[hallucinogens], not elsewhere classified, undetermined intent); Y13 (Poisoning by and exposure to other drugs acting on the"
+"autonomic nervous system, undetermined intent); Y14 (Poisoning by and exposure to other and unspecified drugs, medicaments and"
+"biological substances, undetermined intent)"
+"Group By: Residence County; Year"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Sep 24, 2025 8:13:36 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2023,"
+"and from provisional data for years 2024 and later, as compiled from data provided by the 57 vital statistics jurisdictions"
+"through the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Sep 24, 2025"
+"8:13:36 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Caveats:
+"1. Deaths and population estimates are reported separately for St. Louis City (FIPS code 29510) and county (FIPS code 29189)."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. The population figures for years 2023 and later are single-race estimates of the July 1 resident population, from the Vintage"
+"2023 postcensal series released by the Census Bureau on June 27, 2024. The population figures for years 2022 and later are"
+"single-race estimates of the July 1 resident population, from the Vintage 2022 postcensal series released by the Census Bureau"
+"on June 22, 2023. The 2022 and 2023 series is based on the Modified Blended Base produced by the US Census Bureau in lieu of the"
+"April 1, 2020 decennial population count. The Modified Blended Base consists of the blend of Vintage 2020 postcensal population"
+"estimates for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020 Census data from the internal Census Edited File"
+"(CEF). The population figures for years 2021 are single-race estimates of the July 1 resident population, based on the Blended"
+"Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021 postcensal"
+"series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates of the"
+"July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census Bureau on"
+"July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from the"
+"Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"6. After the creation of the final 2023 dataset, North Carolina updated the cause of death information for over 900 death"
+"certificates to include a cause of death code indicating drug overdose (ICD-10 underlying cause-of-death codes: X40-X44,"
+"X60-X64, X85, and Y10-Y14). Jurisdictions can continue to update death certificates after the closing of the mortality file. As"
+"a result, users should consider that the actual death count for drug overdose deaths for North Carolina in 2023 is over 4,400"
+"deaths, with a crude rate of approximately 41.0 per 100,000 population, and an age-adjusted rate of approximately 42.1 per"
+"100,000 population. These deaths will not be updated on the final mortality datasets."
+"7. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"8. Deaths occurring through September 13, 2025 as of September 21, 2025."

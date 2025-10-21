@@ -10,6 +10,7 @@ Each class period I will commit the code that we work through.
 -	 Sep 3: [Review using National Parks data](https://eklucas.github.io/ADJ-F2025/scripts/nps-review.html)
 -    Sep 3: [Analyzing CMHS pet intake data](https://eklucas.github.io/ADJ-F2025/scripts/practice-CMHS-pets.html)
 -    Sep 10: [Importing](https://eklucas.github.io/ADJ-F2025/scripts/importing-in-class.html)
+-    Sep 24: [Methodologies with CDC WONDER](https://eklucas.github.io/ADJ-F2025/scripts/cdc-wonder.html)
 
 Because GitHub is not meant to hold large data files, you will find most of the data files we use in class on Canvas. 
 

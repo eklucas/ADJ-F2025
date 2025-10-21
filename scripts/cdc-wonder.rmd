@@ -1,0 +1,120 @@
+---
+title: "Using CDC WONDER to assess the opioid epidemic"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+The CDC WONDER set of databases is a great resource for reporting, and its Multiple Cause of Death Database is the primary source of death data nationally. There is a time lag (usually a couple of years), but it's still the best resource we have to understand why, how, where and when people die. 
+
+In class we walked through all the decisions required for making a request of the data: you can't download the entire dataset, and you can't access the data at the individual level, so it comes aggregated, and you can choose to break it out into particular groups by using the "grouping" options at the top of the request. The CDC lets you save these requests so you can go back and make tweaks if need be.  
+
+Request URL:
+http://wonder.cdc.gov/controller/saved/D176/D451F468
+
+Another thing to note is that if you're going to identify people who died of a particular disease or illness, you'll likely need to understand what codes to select for 1) underlying cause of death, which is the primary cause, and 2) multiple causes of death, or contributing causes of death. For our example we used [this methodology]("documents/using-icd-10-codes-to-assess-opioid-related-overdose-deaths.pdf") to identify people who died where opioids were involved.
+
+```{r, message = F}
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+cdc_deaths <- read_csv("data/Provisional Mortality Statistics, 2018 through Last Week.csv")
+```
+
+If you examine this data, you'll see that there are notes at the bottom of the table that lay out some caveats about the data (important to pay attention to) and that describe exactly what data you requested (which is also valuable). These notes will only get in the way of our analysis, so we can preserve them in the original file but remove them from the table we plan to analyze by using `filter` and `select`:
+
+```{r}
+cdc_deaths <- read_csv("data/Provisional Mortality Statistics, 2018 through Last Week.csv") %>% 
+# Notes is NA for all our data cells and only contains values below the table, so we only want rows where Notes is NA:
+  filter(is.na(Notes)) %>% 
+# Then we can ditch that column because it is empty:
+  select(-Notes) %>% 
+# And we'll use clean_names() to make the headers better:
+  clean_names()
+```
+
+Note that the deaths column is stored as a character column because it has some text values, such as "Suppressed". The CDC suppresses any number less than 10; these "Suppressed" values tell us that there were people that died, we just aren't sure of the exact number. That can still be valuable information. So we'll create a new column that just has the numbers so we can do math later:
+
+```{r}
+# test it out
+cdc_deaths %>% 
+  mutate(deaths_num = parse_number(deaths), .after = deaths)
+
+# make it permanent
+cdc_deaths <- cdc_deaths %>% 
+  mutate(deaths_num = parse_number(deaths), .after = deaths)
+```
+
+Note that R gives us warnings that some values can't be converted to numbers - such as "Suppressed" - so they are becoming NAs. That's fine, that works well for our analysis.
+
+Same is true for the crude_rate column: 
+```{r}
+# test it out
+cdc_deaths %>% 
+  mutate(crude_num = parse_number(crude_rate))
+
+# make it permanent
+cdc_deaths <- cdc_deaths %>% 
+  mutate(crude_num = parse_number(crude_rate))
+```
+
+
+#### Questions
+
+How many counties across Missouri had opioid deaths in 2023? 
+2023 (most recent complete year)
+
+86 counties (out of 115)
+St Louis City has highest death count
+```{r}
+cdc_deaths %>% 
+  filter(year_code == 2023 & deaths != "0") %>% 
+  arrange(desc(deaths_num))
+```
+
+And unsurprisingly the highest rate as well
+```{r}
+cdc_deaths %>% 
+  filter(year_code == 2023 & deaths != "0") %>% 
+  arrange(desc(crude_num))
+```
+
+What's happening in Boone County? 
+```{r}
+cdc_deaths %>% 
+  filter(residence_county=="Boone County, MO")
+
+cdc_deaths %>% 
+  filter(grepl("louis city", residence_county, ignore.case=T))
+
+cdc_deaths %>% 
+  filter(grepl("Phelps", residence_county, ignore.case=T))
+```
+
+One of the great things about CDC WONDER is that you can use your request URL and go back to tweak your request and get new groupings. We decided to look at all states rather than only counties in MO, and made a new request. 
+
+Import state,year dataset:
+
+```{r}
+cdc_deaths2 <- read_csv("data/Provisional Mortality Statistics, 2018 through Last Week BY STATE.csv") %>% 
+  filter(is.na(Notes)) %>% 
+  select(-Notes) %>% 
+  clean_names()
+```
+
+How did the pandemic affect opioid deaths? 
+```{r}
+cdc_deaths2 %>% 
+  mutate(age_adjusted_rate = parse_number(age_adjusted_rate)) %>% 
+  filter(year_code %in% c(2019,2022)) %>%
+  select(residence_state, year_code, age_adjusted_rate) %>% 
+  pivot_wider(names_from = year_code, values_from = age_adjusted_rate) %>% 
+  mutate(pct_change = (`2022`-`2019`)/`2019`) %>% 
+  filter(pct_change > 1)
+
+# increase in every state but 1 (new jersey) and more than doubled in 16 states
+```
