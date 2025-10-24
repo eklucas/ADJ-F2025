@@ -1,0 +1,140 @@
+---
+title: "data cleaning in class"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r, message=F}
+library(tidyverse)
+```
+
+We used five datasets as examples for these cleaning methods and functions: 
+
+```{r, message=F}
+transactions <- read_csv("data/transactions.csv")
+dispatch <- read_csv("data/project1/dispatch-2025-09-23.csv")
+disney <- read_csv("data/disney_movies_total_gross.csv")
+osha <- read_csv("data/osha.csv")
+poverty <- read_csv("data/poverty_original.csv")
+```
+
+# Dates and Numbers Reformatting
+If dates and numbers aren't formatted correctly in your data, it limits your analysis. You can only do math on numbers, and neither will sort correctly when stored as text. Always check the data types of your columns when you're assessing your data.
+```{r}
+# the lubridate package (part of tidyverse) comes with these functions that change badly-formatted dates into true dates; choose the function that mimics the pattern of your dates (01/01/2025 > mdy())
+
+# even when a date has no punctuation, lubridate functions can still parse it:
+transactions %>% 
+  mutate(liz_dt = mdy(transaction_dt)) %>% 
+  select(transaction_dt, liz_dt)
+
+# in this case time is included, so we use the function mdy_hms():
+dispatch %>% 
+  mutate(new_dt = mdy_hms(CallDateTime)) %>% 
+  select(CallDateTime, new_dt)
+
+# even months that are spelled out or abbreviated can be read by lubridate:
+disney %>% 
+  mutate(new_dt = mdy(release_date)) %>% 
+  select(release_date, new_dt)
+
+# the best way to turn character values into numbers is using parse_number(), which will also remove extraneous characters such as commas and dollar signs:
+disney %>% 
+  mutate(new_gross = parse_number(total_gross)) %>% 
+  select(total_gross, new_gross)
+
+# to quickly view  column data types, try:
+glimpse(disney)
+```
+# Creating new fields with multiple if then cases.
+
+The `mutate`() function creates a new column in your table, and you can fill it with values based on a series of logical tests by using `case_when()`.
+
+In this example, the `osha` table has a coded field: `establishment_type` has values 1 through 3 identifying whether an employer is not a government entity, a state government or a local government. Use `case_when()` within `mutate()` to create a new field that contains the descriptive values (which you can find in the data documentation):
+```{r}
+osha %>% 
+  count(establishment_type)
+
+osha <- osha %>% 
+  mutate(estab_desc = case_when(
+    establishment_type == 1 ~ "Not a Gov't Entity",
+    establishment_type == 2 ~ "State Gov't Entity",
+    establishment_type == 3 ~ "Local Gov't Entity",
+    TRUE ~ "unknown"
+  ))
+
+osha %>% 
+  count(establishment_type, estab_desc)
+```
+
+# Work with strings
+
+A "string" is just a string of characters, which can be letters or numbers or special characters, but which are stored in R as "character" (aka text). There many ways to manipulate strings using the `stringr` package in `tidyverse`; you can find a lot of them on the stringr cheatsheet (the "strings.pdf" in your tipsheets folder).
+```{r}
+# this function lets you pull sections of a string specifying a starting and ending position
+?str_sub
+
+poverty %>% 
+  mutate(st_fips = str_sub(GEOID,1,2),
+         cnty_fips = str_sub(GEOID,3,5))
+```
+
+```{r}
+# this function let's you parse character columns by a delimiter
+?separate_wider_delim
+
+poverty %>% 
+  separate_wider_delim(cols = `NAME`, 
+                       delim = ", ", 
+                       names=c("county","state"), 
+                       cols_remove = FALSE)
+
+# there's also separate_wider_position and separate_wider_regex
+```
+
+We talked briefly about regular expressions: a pattern-matching "language" that helps you clean data based on patterns rather than literals. 
+See the [Rubular website](https://rubular.com/) for a quick guide.
+
+```{r}
+# you can also change the case of your data:
+?str_to_lower
+?str_to_upper
+?str_to_title
+?str_to_sentence
+
+# keep in mind that title and sentence don't do a good job of recognizing words that need to remain all uppercase, such as LLC or MD.
+```
+
+# Reshaping your data
+
+The poverty dataset is in the format that you'll get data from `tidycensus` - which we'll cover last week. This dataset comes in a long format: every variable has it's own row. Sometimes, for comparison, you want those variables in columns: in other words, you want your data to be wider. 
+
+In this case, to calculate the percent of each county's population living below 50% of the poverty level (abject poverty), you need `below50` and `population` as columns for each county's row. 
+```{r}
+?pivot_wider
+
+poverty %>% 
+# to make this easier to read, we'll omit `moe` for this demonstration:
+  select(-moe) %>% 
+# this widens the dataset, taking all the unique values from `variable` and making them columns:
+  pivot_wider(names_from = variable, values_from = estimate) %>% 
+# then we can calculate the pct:
+  mutate(pct_below50 = below50/population) %>% 
+  arrange(desc(pct_below50)) %>% 
+  select(NAME, population, below50, pct_below50)
+
+# note that there is also a function for making a wide dataset long:
+?pivot_longer
+```
+
+
+
+
+
+
+
+
+
+
+

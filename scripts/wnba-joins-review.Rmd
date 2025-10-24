@@ -1,0 +1,132 @@
+---
+title: "WNBA Review"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r, message=F}
+library(tidyverse)
+```
+
+```{r}
+salaries <- read_csv("data/wnba-salaries-2024.csv")
+teams <- read_csv("data/wnba-teams-2024.csv")
+```
+
+Review of joins: you can always refer back to [these handy gifs](https://github.com/gadenbuie/tidyexplain?tab=readme-ov-file#mutating-joins) to better understand which joins do what.
+
+### Left join
+
+*Keeps all the rows from the left table, and only matches from the right table. Includes all columns from both tables*
+
+```{r}
+left_join(teams, salaries, by = "name")
+
+# to vet the join and find out if any rows in `teams` didn't have a match in `salaries`, pick a column from `salaries` and see how many rows have NAs: 
+left_join(teams, salaries, by = "name") %>% 
+  filter(is.na(salary_2024))
+
+# another way to find out is to use an `anti_join()` which will tell you which rows in `teams` (table x) don't have a match in `salaries` (table y):
+anti_join(teams, salaries, by = "name")
+
+# to find out which rows in `salaries` don't have a match in `teams`, reverse the table order:
+anti_join(salaries, teams, by = "name")
+```
+
+### Full join
+
+*keeps all rows and columns from both tables, creating NAs in each table's columns where there aren't matches*
+```{r}
+full_join(salaries, teams, by = "name")
+
+# this tells us that there are a total of 141 players in both tables (each is missing one or more from the total)
+```
+#### Inner join
+
+*keeps only matching rows from both tables, and all columns*
+```{r}
+inner_join(salaries, teams, by = "name")
+
+# only 137 players have data in both tables
+```
+
+Always pay attention to how many rows are in your results; that's a key to how well the join worked. If you have more rows than you expected, there might be unnecessary duplicates in your data.
+
+#### Vet joining columns
+To make sure that your joining columns don't have unnecessary duplicates, use the count() function to see how many times each unique value appears. 
+
+For this dataset, we expect one row per unique name in each table: it's a one-to-one join.
+
+In the FEC campaign finance data, you expect the `committees` table to have one row per `cmte_id`, but `transactions` can have many instances of each `cmte_id`. That's a one-to-many join. 
+
+Many-to-many joins tend to be trouble, creating a lot of duplication.
+
+```{r}
+salaries %>% 
+  count(name) %>% 
+  arrange(desc(n))
+
+teams %>% 
+  count(name) %>% 
+  arrange(desc(n))
+
+# Each name only appears once in each dataset.
+```
+
+Creating the final join table: I'll choose full_join to preserve all the players. 
+
+```{r}
+combined <- full_join(salaries, teams, by = "name")
+```
+
+
+Who has the highest salary in the WNBA?
+
+```{r}
+combined %>% 
+  arrange(desc(salary_2024))
+
+# Three-way tie between Arike Ogunbowale, Kahleah Copper and Jewell Loyd.
+```
+
+Which team pays the most?
+
+```{r}
+combined %>% 
+  group_by(team) %>% 
+  summarise(total = sum(salary_2024, na.rm=T),
+            avg_sal = mean(salary_2024, na.rm=T)) %>% 
+  arrange(desc(avg_sal))
+
+# For total salary, it's the Wings. For average salary, it's the Storm.
+```
+
+Do more successful players make more money?
+
+```{r}
+combined %>% 
+  ggplot(aes(x = minutes, y = salary_2024)) +
+  geom_point() +
+  labs(
+    title = "Relationship Between Minutes Played and Salary",
+    x = "Minutes Played",
+    y = "Salary (USD)"
+  ) +
+  theme_minimal()
+
+# How to define success? We decided to try minutes played.
+
+# We thought a scatterplot might be the best way to assess this... but it's hard to draw any conclusions that we could put in stories. There does appear to be a relationship. 
+```
+
+How many first round picks have made the pros?
+
+```{r}
+teams %>% 
+  filter(draft_round=="1" & round_num=="1") %>% 
+  select(draft_year, name) %>% 
+  arrange(draft_year)
+
+# only three are missing: 2011 (Diana Taurasi, who just retired), 2014 (Maya Moore who left to join the Innocence Project) and 2021 (Charli Collier). 
+```
