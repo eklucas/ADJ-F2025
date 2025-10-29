@@ -14,6 +14,7 @@ Each class period I will commit the code that we work through.
 -    Oct 1: [Joins with FEC data](https://eklucas.github.io/ADJ-F2025/scripts/joins-in-class.html)
 -    Oct 22: [WNBA joins review](https://eklucas.github.io/ADJ-F2025/scripts/wnba-joins-review.html)
 -    Oct 22: [Data cleaning](https://eklucas.github.io/ADJ-F2025/scripts/data-cleaning-in-class.html)
+-    Oct 29: [Tidycensus](https://eklucas.github.io/ADJ-F2025/scripts/tidycensus-in-class.html)
 
 
 Because GitHub is not meant to hold large data files, you will find most of the data files we use in class on Canvas. 
