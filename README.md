@@ -15,6 +15,10 @@ Each class period I will commit the code that we work through.
 -    Oct 22: [WNBA joins review](https://eklucas.github.io/ADJ-F2025/scripts/wnba-joins-review.html)
 -    Oct 22: [Data cleaning](https://eklucas.github.io/ADJ-F2025/scripts/data-cleaning-in-class.html)
 -    Oct 29: [Tidycensus](https://eklucas.github.io/ADJ-F2025/scripts/tidycensus-in-class.html)
+-    Nov 5: [Calling APIs with httr2](https://eklucas.github.io/ADJ-F2025/scripts/httr2-in-class.html)
+-    Nov 5: [Intro to web scraping](https://eklucas.github.io/ADJ-F2025/scripts/web-scrape-in-class.html)
+-    Nov 12: [SD Boards & Commissions web scrape](https://eklucas.github.io/ADJ-F2025/scripts/SD-boards-scrape.html)
+
 
 
 Because GitHub is not meant to hold large data files, you will find most of the data files we use in class on Canvas. 

@@ -1,0 +1,107 @@
+---
+title: "SD Boards and Commissions scrape"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r message=F}
+library(tidyverse)
+library(rvest)
+```
+
+### GOAL
+Scrape all the members of all the boards and commissions listed on this South Dakota state website: https://boardsandcommissions.sd.gov/SearchResults.aspx?Letter=ALL
+
+
+Start by getting a list of all boards & commissions and their IDs (which are listed inside the link of each board):
+```{r}
+board_list <- read_html("https://boardsandcommissions.sd.gov/SearchResults.aspx?Letter=ALL")
+
+# select all <a> elements inside of <tr> elements
+boards <- board_list %>% 
+  html_elements("tr a") 
+
+# pull out all the board names: 
+boards %>% 
+  html_text2()
+
+# pull out all the board ids (though need to strip out "Meetings.aspx?") 
+boards %>% 
+  html_attr("href")
+
+# create a container to hold all the rows from the loop
+board_file <- NULL
+
+# create a loop that goes through all 145 elements and pulls out the board name and id, creates a row, and adds it to the master_file container: 
+
+for (board in boards) {
+  board_name <- board %>% html_text2()
+  board_id <- board %>% html_attr("href") %>% str_remove("Meetings.aspx\\?")
+  row <- tibble_row(board_name, board_id)
+  board_file <- bind_rows(board_file, row)
+}
+```
+
+The members are listed in a URL that includes the board id, for example: 
+https://boardsandcommissions.sd.gov/boardmembers.aspx?BoardID=2
+```{r}
+board1 = read_html("https://boardsandcommissions.sd.gov/boardmembers.aspx?BoardID=2")
+
+all_elements <- board1 %>% 
+  html_elements("tr span") %>% 
+  html_text2() 
+
+# search for elements where the id starts with "gvBoardMembers_lblMemberFirstName
+board1 %>% 
+  html_elements("[id^='gvBoardMembers_lblMemberFirstName']") %>% 
+  html_text2()
+
+# list the other ids in the table:
+# gvBoardMembers_lblMemberposition
+# gvBoardMembers_lblMemberCity
+# gvBoardMembers_lblMemberTermEnd
+# gvBoardMembers_lblAdditionalInfo
+
+names <- board1 %>% html_elements("[id^='gvBoardMembers_lblMemberFirstName']") %>% html_text2()
+positions <- board1 %>% html_elements("[id^='gvBoardMembers_lblMemberposition']") %>% html_text2()
+cities <- board1 %>% html_elements("[id^='gvBoardMembers_lblMemberCity']") %>% html_text2()
+term_ends <- board1 %>% html_elements("[id^='gvBoardMembers_lblMemberTermEnd']") %>% html_text2()
+add_info <- board1 %>% html_elements("[id^='gvBoardMembers_lblAdditionalInfo']") %>% html_text2()
+
+
+table <- tibble(name = names, position = positions, city = cities, term_end = term_ends, add_info = add_info)
+```
+
+Now work this into a loop to get all members for all boards
+
+```{r}
+board_ids <- select(board_file, board_id) %>% pull()
+
+all_members <- NULL
+
+for (id in board_ids) {
+  url <- paste0("https://boardsandcommissions.sd.gov/boardmembers.aspx?",id)
+  html <- read_html(url)
+  names <- html %>% html_elements("[id^='gvBoardMembers_lblMemberFirstName']") %>% html_text2()
+  positions <- html %>% html_elements("[id^='gvBoardMembers_lblMemberposition']") %>% html_text2()
+  cities <- html %>% html_elements("[id^='gvBoardMembers_lblMemberCity']") %>% html_text2()
+  term_ends <- html %>% html_elements("[id^='gvBoardMembers_lblMemberTermEnd']") %>% html_text2()
+  add_info <- html %>% html_elements("[id^='gvBoardMembers_lblAdditionalInfo']") %>% html_text2()
+  board_id <- id
+  table <- tibble(board_id= board_id, name = names, position = positions, city = cities, term_end = term_ends, add_info = add_info)
+  all_members <- bind_rows(all_members, table)
+  Sys.sleep(1)
+}
+```
+
+Now bring in the board names: 
+```{r}
+final_table <- all_members %>% left_join(board_file, by="board_id") %>% relocate(board_name, .before = board_id)
+```
+
+Write the final table to a CSV:
+```{r}
+write_csv(final_table, "data/SD-boards-members.csv")
+```
+
